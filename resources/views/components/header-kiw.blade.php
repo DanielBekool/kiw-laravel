@@ -156,7 +156,7 @@
 
                             <!--Logo-->
                             <div class=" flex items-center ">
-                                <a href="#"><img class="w-25" src="./img/logo.png" alt="logo"></a>
+                                <a href="#"><img class="w-25" src="{{ asset('images/logo.png') }}" alt="logo"></a>
                             </div>
 
                             <ul class="mt-10 space-y-4">
