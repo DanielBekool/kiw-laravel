@@ -57,6 +57,7 @@ body.front-end {
     --color-border: #d6d6d6;
     --color-overlayblack: #151918B8;
     --color-bordertransparent: #FFFFFF3B;
+    --white-transparent: #FFFFFF38;
     --color-black: #151918;
     --color-purple: #321B71;
 }
@@ -108,6 +109,15 @@ h1 {
 h2 {
   font-family: Manrope;
   font-size: 3em;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  color: var(--color-heading);
+}
+
+h2.footer {
+  font-family: Manrope;
+  font-size: 4em;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
@@ -259,8 +269,6 @@ h6 {
 }
 
 
-
-
 /* Splash Screen */
 
 #splash-screen {
@@ -324,8 +332,6 @@ h6 {
 
 
 
-
-
   /* Custom Button 2 */
   .btn2 {
     background: white; 
@@ -346,24 +352,49 @@ h6 {
     border: none; 
   }
 
-    /* Custom Button 3 */
-    .btn3 {
-      cursor: pointer;
-      text-transform: uppercase;
-      font-family: "Manrope";
-      font-style: normal;
-      font-weight: 600;
-      line-height: normal;
-      letter-spacing: 0.8px;
-      padding: 16px 0px 16px 0px;
-      display: flex;
-      flex-direction: row;
-      justify-content: space-between;
-      align-items: center;
-      gap: 20px;
-      transition: background 0.5s ease;
-      border-top: 1px solid var(--color-border); 
+  /* Custom Button 3 */
+  .btn3 {
+    cursor: pointer;
+    text-transform: uppercase;
+    font-family: "Manrope";
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.8px;
+    padding: 16px 0px 16px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    transition: background 0.5s ease;
+    border-top: 1px solid var(--color-border); 
+  }
+
+    /* Custom Button 4 */
+  .btn4 {
+    cursor: pointer;
+    font-family: "Manrope";
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: 0.8px;
+    padding: 16px 32px 16px 32px;
+    border-radius: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    transition: background 0.5s ease;
+    background: var(--white-transparent);
+    color: white;
+  }
+
+    .btn4:hover {
+      background: white;
     }
+
   
   /* Ini untuk teks di dalam tombol */
   .gradient-text {
