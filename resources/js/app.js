@@ -8,4 +8,3 @@ import './pages/swiper';
 import './pages/tippy';
 import './pages/video-inline';
 import './pages/video-modal';
-import './pages/bg-switcher';
