@@ -90,10 +90,10 @@
         
                     <!-- content -->
                     <div class="flex flex-col items-start gap-6 lg:w-[1200px] mx-auto lg:px-0 sm:px-6 px-4 mt-40 z-20">
-                        <h1 data-aos="fade-up" class="text-left !text-white lg:max-w-[600px] lg:!text-[2.8rem] sm:!text-[2.2rem] !text-[1.5rem]">
+                        <h1 data-aos="fade-up" class="text-left text-white lg:max-w-[600px] lg:!text-[2.8rem] sm:!text-[2.2rem] !text-[1.5rem]">
                             Kawasan Industri Strategis untuk Pertumbuhan Bisnis
                         </h1>
-                        <p class="!text-white lg:max-w-[700px] sm:max-w-[550px] text-left">
+                        <p class="text-white lg:max-w-[700px] sm:max-w-[550px] text-left">
                             Fasilitas lengkap, aksesibilitas tinggi, dan dukungan profesional bagi investor.
                         </p>
 
@@ -103,7 +103,7 @@
                             <span class="gradient-icon">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="23" height="20" viewBox="0 0 23 20" fill="none">
                                     <g clip-path="url(#clip0_145_484)">
-                                        <path class="arrow-path" d="M21.2356 11.0682C21.8172 10.4774 21.8172 9.5179 21.2356 8.92709L13.7914 1.36468C13.2098 0.77387 12.2653 0.77387 11.6837 1.36468C11.1022 1.9555 11.1022 2.91498 11.6837 3.50579L16.5923 8.48752L2.31795 8.48752C1.49443 8.48752 0.829101 9.16341 0.829101 10C0.829101 10.8366 1.49443 11.5125 2.31795 11.5125L16.5876 11.5125L11.6884 16.4942C11.1068 17.085 11.1068 18.0445 11.6884 18.6353C12.27 19.2261 13.2145 19.2261 13.796 18.6353L21.2403 11.0729L21.2356 11.0682Z" fill="url(#paint0_linear_145_484)"/>
+                                        <path class="icon.arrow-path" d="M21.2356 11.0682C21.8172 10.4774 21.8172 9.5179 21.2356 8.92709L13.7914 1.36468C13.2098 0.77387 12.2653 0.77387 11.6837 1.36468C11.1022 1.9555 11.1022 2.91498 11.6837 3.50579L16.5923 8.48752L2.31795 8.48752C1.49443 8.48752 0.829101 9.16341 0.829101 10C0.829101 10.8366 1.49443 11.5125 2.31795 11.5125L16.5876 11.5125L11.6884 16.4942C11.1068 17.085 11.1068 18.0445 11.6884 18.6353C12.27 19.2261 13.2145 19.2261 13.796 18.6353L21.2403 11.0729L21.2356 11.0682Z" fill="url(#paint0_linear_145_484)"/>
                                     </g>
                                     <defs>
                                         <linearGradient id="paint0_linear_145_484" x1="6.4406" y1="0.921573" x2="7.12695" y2="19.4465" gradientUnits="userSpaceOnUse">
@@ -125,7 +125,7 @@
                     <div class="flex row justify-between lg:w-[1200px] mx-auto  gap-0 ">
 
                         <div class="w-1/5 self-center">
-                            <h5 class="!text-white">Luas Area Tersedia</h5>
+                            <h5 class="text-white">Luas Area Tersedia</h5>
                         </div>
 
                         <!-- item counter -->
@@ -133,11 +133,11 @@
                             <div class="flex flex-row justify-center items-start gap-1 mb-2">
                                 <div class="flex flex-col gap-2 w-fit">
                                     <div class="flex flex-row gap-2">
-                                        <h3 class="counter !font-medium lg:!text-4xl sm:!text-4xl !text-4xl !text-white"  data-target="36">0</h3>
-                                        <h3 class="plus !font-medium lg:!text-[1em] self-end !text-white">Ha</h3>
+                                        <h3 class="counter !font-medium lg:!text-4xl sm:!text-4xl !text-4xl text-white"  data-target="36">0</h3>
+                                        <h3 class="plus !font-medium lg:!text-[1em] self-end text-white">Ha</h3>
                                     </div>
                                     <div>
-                                        <p class="!text-white">Lahan Industri</p>
+                                        <p class="text-white">Lahan Industri</p>
                                     </div>
                                 </div>
                             </div>
@@ -148,11 +148,11 @@
                             <div class="flex flex-row justify-center items-start gap-1 mb-2">
                                 <div class="flex flex-col gap-2 w-fit">
                                     <div class="flex flex-row gap-2">
-                                        <h3 class="counter !font-medium lg:!text-4xl sm:!text-4xl !text-4xl !text-white"  data-target="1000">0</h3>
+                                        <h3 class="counter !font-medium lg:!text-4xl sm:!text-4xl !text-4xl text-white"  data-target="1000">0</h3>
                                         <h3 class="plus !font-medium lg:!text-[1em] self-end !text-white">Unit</h3>
                                     </div>
                                     <div>
-                                        <p class="!text-white">BPSP</p>
+                                        <p class="text-white">BPSP</p>
                                     </div>
                                 </div>
                             </div>
@@ -163,11 +163,11 @@
                             <div class="flex flex-row justify-center items-start gap-1 mb-2">
                                 <div class="flex flex-col gap-2 w-fit">
                                     <div class="flex flex-row gap-2">
-                                        <h3 class="counter !font-medium lg:!text-4xl sm:!text-4xl !text-4xl !text-white"  data-target="200">0</h3>
-                                        <h3 class="plus !font-medium lg:!text-[1em] self-end !text-white">Unit</h3>
+                                        <h3 class="counter !font-medium lg:!text-4xl sm:!text-4xl !text-4xl text-white"  data-target="200">0</h3>
+                                        <h3 class="plus !font-medium lg:!text-[1em] self-end text-white">Unit</h3>
                                     </div>
                                     <div>
-                                        <p class="!text-white">Food Court</p>
+                                        <p class="text-white">Food Court</p>
                                     </div>
                                 </div>
                             </div>
@@ -178,11 +178,11 @@
                             <div class="flex flex-row justify-center items-start gap-1 mb-2">
                                 <div class="flex flex-col gap-2 w-fit">
                                     <div class="flex flex-row gap-2">
-                                        <h3 class="counter !font-medium lg:!text-4xl sm:!text-4xl !text-4xl !text-white"  data-target="50">0</h3>
-                                        <h3 class="plus !font-medium lg:!text-[1em] self-end !text-white">Unit</h3>
+                                        <h3 class="counter !font-medium lg:!text-4xl sm:!text-4xl !text-4xl text-white"  data-target="50">0</h3>
+                                        <h3 class="plus !font-medium lg:!text-[1em] self-end text-white">Unit</h3>
                                     </div>
                                     <div>
-                                        <p class="!text-white">Commercial Area</p>
+                                        <p class="text-white">Commercial Area</p>
                                     </div>
                                 </div>
                             </div>
@@ -203,8 +203,9 @@
                     <!--content left-->
                     <div class="flex flex-col justify-start gap-5 !w-[55%]">
                         <h6 class="bullet-1">tentang kiw</h6>
-                        <h2>Pilar Industri Jawa Tengah</h2>
-                        <p>
+                        <h2 class="text-[var(--color-heading)]">Pilar Industri Jawa Tengah</h2>
+
+                        <p class="body-text text-[var(--color-text)]">
                             PT Kawasan Industri Wijayakusuma (KIW) merupakan perusahaan yang bergerak di bidang pengembangan dan pengelolaan kawasan industri. Pemegang saham KIW antara lain; Kementerian BUMN, PT Danareksa (Persero), Pemerintah Provinsi Jawa Tengah, dan Pemerintah Kabupaten Cilacap.
                         </p>
                         <!--ISO-->
@@ -299,8 +300,8 @@
                 <div class="flex flex-row justify-between items-end">
                     <!--Heading-->
                     <div class="flex flex-col justify-start gap-5 w-[60%]">
-                        <h6 class="bullet-2 !text-white">layanan kami</h6>
-                        <h2 class="!text-white">Solusi Komprehensif untuk Kebutuhan Industri</h2>
+                        <h6 class="bullet-2 text-white ">layanan kami</h6>
+                        <h2 class="text-white">Solusi Komprehensif untuk Kebutuhan Industri</h2>
                     </div>
                     <!--Button-->
                     <div class="w-[40%] flex flex-row justify-end">
@@ -309,7 +310,7 @@
                             <span class="gradient-icon">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="23" height="20" viewBox="0 0 23 20" fill="none">
                                     <g clip-path="url(#clip0_145_484)">
-                                        <path class="arrow-path" d="M21.2356 11.0682C21.8172 10.4774 21.8172 9.5179 21.2356 8.92709L13.7914 1.36468C13.2098 0.77387 12.2653 0.77387 11.6837 1.36468C11.1022 1.9555 11.1022 2.91498 11.6837 3.50579L16.5923 8.48752L2.31795 8.48752C1.49443 8.48752 0.829101 9.16341 0.829101 10C0.829101 10.8366 1.49443 11.5125 2.31795 11.5125L16.5876 11.5125L11.6884 16.4942C11.1068 17.085 11.1068 18.0445 11.6884 18.6353C12.27 19.2261 13.2145 19.2261 13.796 18.6353L21.2403 11.0729L21.2356 11.0682Z" fill="url(#paint0_linear_145_484)"/>
+                                        <path class="icon.arrow-path" d="M21.2356 11.0682C21.8172 10.4774 21.8172 9.5179 21.2356 8.92709L13.7914 1.36468C13.2098 0.77387 12.2653 0.77387 11.6837 1.36468C11.1022 1.9555 11.1022 2.91498 11.6837 3.50579L16.5923 8.48752L2.31795 8.48752C1.49443 8.48752 0.829101 9.16341 0.829101 10C0.829101 10.8366 1.49443 11.5125 2.31795 11.5125L16.5876 11.5125L11.6884 16.4942C11.1068 17.085 11.1068 18.0445 11.6884 18.6353C12.27 19.2261 13.2145 19.2261 13.796 18.6353L21.2403 11.0729L21.2356 11.0682Z" fill="url(#paint0_linear_145_484)"/>
                                     </g>
                                     <defs>
                                         <linearGradient id="paint0_linear_145_484" x1="6.4406" y1="0.921573" x2="7.12695" y2="19.4465" gradientUnits="userSpaceOnUse">
@@ -335,8 +336,8 @@
                         <!--front-->
                         <div class="flex flex-col justify-between grow gap-15 px-6 pt-6">
                             <div class="flex flex-col gap-3">
-                                <h6 class="!text-white">01.</h6>
-                                <h3 class="!text-white">Lahan Industri Siap Bangun</h3>
+                                <h6 class="text-white">01.</h6>
+                                <h3 class="text-white">Lahan Industri Siap Bangun</h3>
                             </div>
                             <div>
                                 <img class="rounded-2xl rounded-b-none h-[250px]  object-cover" src="{{ asset('images/aerial-view-warehouse-industrial-plant-logistics-center-from-view-from.jpg') }}">
@@ -356,7 +357,7 @@
                                         <span class="gradient-icon">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="23" height="20" viewBox="0 0 23 20" fill="none">
                                                 <g clip-path="url(#clip0_145_484)">
-                                                    <path class="arrow-path" d="M21.2356 11.0682C21.8172 10.4774 21.8172 9.5179 21.2356 8.92709L13.7914 1.36468C13.2098 0.77387 12.2653 0.77387 11.6837 1.36468C11.1022 1.9555 11.1022 2.91498 11.6837 3.50579L16.5923 8.48752L2.31795 8.48752C1.49443 8.48752 0.829101 9.16341 0.829101 10C0.829101 10.8366 1.49443 11.5125 2.31795 11.5125L16.5876 11.5125L11.6884 16.4942C11.1068 17.085 11.1068 18.0445 11.6884 18.6353C12.27 19.2261 13.2145 19.2261 13.796 18.6353L21.2403 11.0729L21.2356 11.0682Z" fill="url(#paint0_linear_145_484)"/>
+                                                    <path class="icon.arrow-path" d="M21.2356 11.0682C21.8172 10.4774 21.8172 9.5179 21.2356 8.92709L13.7914 1.36468C13.2098 0.77387 12.2653 0.77387 11.6837 1.36468C11.1022 1.9555 11.1022 2.91498 11.6837 3.50579L16.5923 8.48752L2.31795 8.48752C1.49443 8.48752 0.829101 9.16341 0.829101 10C0.829101 10.8366 1.49443 11.5125 2.31795 11.5125L16.5876 11.5125L11.6884 16.4942C11.1068 17.085 11.1068 18.0445 11.6884 18.6353C12.27 19.2261 13.2145 19.2261 13.796 18.6353L21.2403 11.0729L21.2356 11.0682Z" fill="url(#paint0_linear_145_484)"/>
                                                 </g>
                                                 <defs>
                                                     <linearGradient id="paint0_linear_145_484" x1="6.4406" y1="0.921573" x2="7.12695" y2="19.4465" gradientUnits="userSpaceOnUse">
@@ -382,8 +383,8 @@
                         <!--front-->
                         <div class="flex flex-col justify-between grow gap-15 px-6 pt-6">
                             <div class="flex flex-col gap-3">
-                                <h6 class="!text-white">02.</h6>
-                                <h3 class="!text-white">Bangunan Pabrik Siap Pakai (BPSP)</h3>
+                                <h6 class="text-white">02.</h6>
+                                <h3 class="text-white">Bangunan Pabrik Siap Pakai (BPSP)</h3>
                             </div>
                             <div>
                                 <img class="rounded-2xl rounded-b-none h-[250px]  object-cover" src="{{ asset('images/exterior-view-modern-industrial-building.jpg') }}">
@@ -403,7 +404,7 @@
                                         <span class="gradient-icon">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="23" height="20" viewBox="0 0 23 20" fill="none">
                                                 <g clip-path="url(#clip0_145_484)">
-                                                    <path class="arrow-path" d="M21.2356 11.0682C21.8172 10.4774 21.8172 9.5179 21.2356 8.92709L13.7914 1.36468C13.2098 0.77387 12.2653 0.77387 11.6837 1.36468C11.1022 1.9555 11.1022 2.91498 11.6837 3.50579L16.5923 8.48752L2.31795 8.48752C1.49443 8.48752 0.829101 9.16341 0.829101 10C0.829101 10.8366 1.49443 11.5125 2.31795 11.5125L16.5876 11.5125L11.6884 16.4942C11.1068 17.085 11.1068 18.0445 11.6884 18.6353C12.27 19.2261 13.2145 19.2261 13.796 18.6353L21.2403 11.0729L21.2356 11.0682Z" fill="url(#paint0_linear_145_484)"/>
+                                                    <path class="icon.arrow-path" d="M21.2356 11.0682C21.8172 10.4774 21.8172 9.5179 21.2356 8.92709L13.7914 1.36468C13.2098 0.77387 12.2653 0.77387 11.6837 1.36468C11.1022 1.9555 11.1022 2.91498 11.6837 3.50579L16.5923 8.48752L2.31795 8.48752C1.49443 8.48752 0.829101 9.16341 0.829101 10C0.829101 10.8366 1.49443 11.5125 2.31795 11.5125L16.5876 11.5125L11.6884 16.4942C11.1068 17.085 11.1068 18.0445 11.6884 18.6353C12.27 19.2261 13.2145 19.2261 13.796 18.6353L21.2403 11.0729L21.2356 11.0682Z" fill="url(#paint0_linear_145_484)"/>
                                                 </g>
                                                 <defs>
                                                     <linearGradient id="paint0_linear_145_484" x1="6.4406" y1="0.921573" x2="7.12695" y2="19.4465" gradientUnits="userSpaceOnUse">
@@ -429,8 +430,8 @@
                         <!--front-->
                         <div class="flex flex-col justify-between grow gap-15 px-6 pt-6">
                             <div class="flex flex-col gap-3">
-                                <h6 class="!text-white">03.</h6>
-                                <h3 class="!text-white">Kerjasama Komersial Kawasan Industri</h3>
+                                <h6 class="text-white">03.</h6>
+                                <h3 class="text-white">Kerjasama Komersial Kawasan Industri</h3>
                             </div>
                             <div>
                                 <img class="rounded-2xl rounded-b-none h-[250px]  object-cover" src="{{ asset('images/exterior-view-modern-industrial-building.jpg') }}">
@@ -450,7 +451,7 @@
                                         <span class="gradient-icon">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="23" height="20" viewBox="0 0 23 20" fill="none">
                                                 <g clip-path="url(#clip0_145_484)">
-                                                    <path class="arrow-path" d="M21.2356 11.0682C21.8172 10.4774 21.8172 9.5179 21.2356 8.92709L13.7914 1.36468C13.2098 0.77387 12.2653 0.77387 11.6837 1.36468C11.1022 1.9555 11.1022 2.91498 11.6837 3.50579L16.5923 8.48752L2.31795 8.48752C1.49443 8.48752 0.829101 9.16341 0.829101 10C0.829101 10.8366 1.49443 11.5125 2.31795 11.5125L16.5876 11.5125L11.6884 16.4942C11.1068 17.085 11.1068 18.0445 11.6884 18.6353C12.27 19.2261 13.2145 19.2261 13.796 18.6353L21.2403 11.0729L21.2356 11.0682Z" fill="url(#paint0_linear_145_484)"/>
+                                                    <path class="icon.arrow-path" d="M21.2356 11.0682C21.8172 10.4774 21.8172 9.5179 21.2356 8.92709L13.7914 1.36468C13.2098 0.77387 12.2653 0.77387 11.6837 1.36468C11.1022 1.9555 11.1022 2.91498 11.6837 3.50579L16.5923 8.48752L2.31795 8.48752C1.49443 8.48752 0.829101 9.16341 0.829101 10C0.829101 10.8366 1.49443 11.5125 2.31795 11.5125L16.5876 11.5125L11.6884 16.4942C11.1068 17.085 11.1068 18.0445 11.6884 18.6353C12.27 19.2261 13.2145 19.2261 13.796 18.6353L21.2403 11.0729L21.2356 11.0682Z" fill="url(#paint0_linear_145_484)"/>
                                                 </g>
                                                 <defs>
                                                     <linearGradient id="paint0_linear_145_484" x1="6.4406" y1="0.921573" x2="7.12695" y2="19.4465" gradientUnits="userSpaceOnUse">
@@ -492,9 +493,9 @@
                     <!--Item-->
                     <div class="keunggulan-item group transition-all duration-[500ms] relative flex flex-col overflow-hidden w-1/6 hover:w-1/3 !min-h-100 border-r border-[var(--color-bordertransparent)]">
                         <!--front-->
-                        <div class="flex flex-col justify-end grow gap-15 px-6 py-6 pt-60">
-                            <h6 class="!text-white">01.</h6>
-                            <h5 class="!text-white">Pelayanan Satu Atap</h5>
+                        <div class="flex flex-col justify-between grow gap-15 px-6 py-6 pt-60">
+                            <h6 class="text-white">01.</h6>
+                            <h5 class="text-white">Pelayanan Satu Atap</h5>
                         </div>
                         <!--back-->
                         <div class="absolute group-hover:top-[0%] top-[100%] transition-all duration-[500ms] flex flex-col justify-between bg-white gap-15 px-6 pt-6 h-full">
@@ -508,7 +509,7 @@
                                         <span class="gradient-icon">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="23" height="20" viewBox="0 0 23 20" fill="none">
                                                 <g clip-path="url(#clip0_145_484)">
-                                                    <path class="arrow-path" d="M21.2356 11.0682C21.8172 10.4774 21.8172 9.5179 21.2356 8.92709L13.7914 1.36468C13.2098 0.77387 12.2653 0.77387 11.6837 1.36468C11.1022 1.9555 11.1022 2.91498 11.6837 3.50579L16.5923 8.48752L2.31795 8.48752C1.49443 8.48752 0.829101 9.16341 0.829101 10C0.829101 10.8366 1.49443 11.5125 2.31795 11.5125L16.5876 11.5125L11.6884 16.4942C11.1068 17.085 11.1068 18.0445 11.6884 18.6353C12.27 19.2261 13.2145 19.2261 13.796 18.6353L21.2403 11.0729L21.2356 11.0682Z" fill="url(#paint0_linear_145_484)"/>
+                                                    <path class="icon.arrow-path" d="M21.2356 11.0682C21.8172 10.4774 21.8172 9.5179 21.2356 8.92709L13.7914 1.36468C13.2098 0.77387 12.2653 0.77387 11.6837 1.36468C11.1022 1.9555 11.1022 2.91498 11.6837 3.50579L16.5923 8.48752L2.31795 8.48752C1.49443 8.48752 0.829101 9.16341 0.829101 10C0.829101 10.8366 1.49443 11.5125 2.31795 11.5125L16.5876 11.5125L11.6884 16.4942C11.1068 17.085 11.1068 18.0445 11.6884 18.6353C12.27 19.2261 13.2145 19.2261 13.796 18.6353L21.2403 11.0729L21.2356 11.0682Z" fill="url(#paint0_linear_145_484)"/>
                                                 </g>
                                                 <defs>
                                                     <linearGradient id="paint0_linear_145_484" x1="6.4406" y1="0.921573" x2="7.12695" y2="19.4465" gradientUnits="userSpaceOnUse">
@@ -530,7 +531,7 @@
                     <!--Item-->
                     <div class="keunggulan-item group transition-all duration-[500ms] relative flex flex-col overflow-hidden w-1/6 hover:w-1/3 !min-h-100 border-r border-[var(--color-bordertransparent)]">
                         <!--front-->
-                        <div class="flex flex-col justify-end grow gap-15 px-6 py-6 pt-60">
+                        <div class="flex flex-col justify-between grow gap-15 px-6 py-6 pt-60">
                             <h6 class="!text-white">02.</h6>
                             <h5 class="!text-white">Infrastruktur & Fasilitas</h5>
                         </div>
@@ -546,7 +547,7 @@
                                         <span class="gradient-icon">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="23" height="20" viewBox="0 0 23 20" fill="none">
                                                 <g clip-path="url(#clip0_145_484)">
-                                                    <path class="arrow-path" d="M21.2356 11.0682C21.8172 10.4774 21.8172 9.5179 21.2356 8.92709L13.7914 1.36468C13.2098 0.77387 12.2653 0.77387 11.6837 1.36468C11.1022 1.9555 11.1022 2.91498 11.6837 3.50579L16.5923 8.48752L2.31795 8.48752C1.49443 8.48752 0.829101 9.16341 0.829101 10C0.829101 10.8366 1.49443 11.5125 2.31795 11.5125L16.5876 11.5125L11.6884 16.4942C11.1068 17.085 11.1068 18.0445 11.6884 18.6353C12.27 19.2261 13.2145 19.2261 13.796 18.6353L21.2403 11.0729L21.2356 11.0682Z" fill="url(#paint0_linear_145_484)"/>
+                                                    <path class="icon.arrow-path" d="M21.2356 11.0682C21.8172 10.4774 21.8172 9.5179 21.2356 8.92709L13.7914 1.36468C13.2098 0.77387 12.2653 0.77387 11.6837 1.36468C11.1022 1.9555 11.1022 2.91498 11.6837 3.50579L16.5923 8.48752L2.31795 8.48752C1.49443 8.48752 0.829101 9.16341 0.829101 10C0.829101 10.8366 1.49443 11.5125 2.31795 11.5125L16.5876 11.5125L11.6884 16.4942C11.1068 17.085 11.1068 18.0445 11.6884 18.6353C12.27 19.2261 13.2145 19.2261 13.796 18.6353L21.2403 11.0729L21.2356 11.0682Z" fill="url(#paint0_linear_145_484)"/>
                                                 </g>
                                                 <defs>
                                                     <linearGradient id="paint0_linear_145_484" x1="6.4406" y1="0.921573" x2="7.12695" y2="19.4465" gradientUnits="userSpaceOnUse">
@@ -584,7 +585,7 @@
                                         <span class="gradient-icon">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="23" height="20" viewBox="0 0 23 20" fill="none">
                                                 <g clip-path="url(#clip0_145_484)">
-                                                    <path class="arrow-path" d="M21.2356 11.0682C21.8172 10.4774 21.8172 9.5179 21.2356 8.92709L13.7914 1.36468C13.2098 0.77387 12.2653 0.77387 11.6837 1.36468C11.1022 1.9555 11.1022 2.91498 11.6837 3.50579L16.5923 8.48752L2.31795 8.48752C1.49443 8.48752 0.829101 9.16341 0.829101 10C0.829101 10.8366 1.49443 11.5125 2.31795 11.5125L16.5876 11.5125L11.6884 16.4942C11.1068 17.085 11.1068 18.0445 11.6884 18.6353C12.27 19.2261 13.2145 19.2261 13.796 18.6353L21.2403 11.0729L21.2356 11.0682Z" fill="url(#paint0_linear_145_484)"/>
+                                                    <path class="icon.arrow-path" d="M21.2356 11.0682C21.8172 10.4774 21.8172 9.5179 21.2356 8.92709L13.7914 1.36468C13.2098 0.77387 12.2653 0.77387 11.6837 1.36468C11.1022 1.9555 11.1022 2.91498 11.6837 3.50579L16.5923 8.48752L2.31795 8.48752C1.49443 8.48752 0.829101 9.16341 0.829101 10C0.829101 10.8366 1.49443 11.5125 2.31795 11.5125L16.5876 11.5125L11.6884 16.4942C11.1068 17.085 11.1068 18.0445 11.6884 18.6353C12.27 19.2261 13.2145 19.2261 13.796 18.6353L21.2403 11.0729L21.2356 11.0682Z" fill="url(#paint0_linear_145_484)"/>
                                                 </g>
                                                 <defs>
                                                     <linearGradient id="paint0_linear_145_484" x1="6.4406" y1="0.921573" x2="7.12695" y2="19.4465" gradientUnits="userSpaceOnUse">
@@ -606,7 +607,7 @@
                     <!--Item-->
                     <div class="keunggulan-item group transition-all duration-[500ms] relative flex flex-col overflow-hidden w-1/6 hover:w-1/3 !min-h-100 border-r border-[var(--color-bordertransparent)]">
                         <!--front-->
-                        <div class="flex flex-col justify-end grow gap-15 px-6 py-6 pt-60">
+                        <div class="flex flex-col justify-between grow gap-15 px-6 py-6 pt-60">
                             <h6 class="!text-white">04.</h6>
                             <h5 class="!text-white">Berbasis Ekosistem</h5>
                         </div>
@@ -622,7 +623,7 @@
                                         <span class="gradient-icon">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="23" height="20" viewBox="0 0 23 20" fill="none">
                                                 <g clip-path="url(#clip0_145_484)">
-                                                    <path class="arrow-path" d="M21.2356 11.0682C21.8172 10.4774 21.8172 9.5179 21.2356 8.92709L13.7914 1.36468C13.2098 0.77387 12.2653 0.77387 11.6837 1.36468C11.1022 1.9555 11.1022 2.91498 11.6837 3.50579L16.5923 8.48752L2.31795 8.48752C1.49443 8.48752 0.829101 9.16341 0.829101 10C0.829101 10.8366 1.49443 11.5125 2.31795 11.5125L16.5876 11.5125L11.6884 16.4942C11.1068 17.085 11.1068 18.0445 11.6884 18.6353C12.27 19.2261 13.2145 19.2261 13.796 18.6353L21.2403 11.0729L21.2356 11.0682Z" fill="url(#paint0_linear_145_484)"/>
+                                                    <path class="icon.arrow-path" d="M21.2356 11.0682C21.8172 10.4774 21.8172 9.5179 21.2356 8.92709L13.7914 1.36468C13.2098 0.77387 12.2653 0.77387 11.6837 1.36468C11.1022 1.9555 11.1022 2.91498 11.6837 3.50579L16.5923 8.48752L2.31795 8.48752C1.49443 8.48752 0.829101 9.16341 0.829101 10C0.829101 10.8366 1.49443 11.5125 2.31795 11.5125L16.5876 11.5125L11.6884 16.4942C11.1068 17.085 11.1068 18.0445 11.6884 18.6353C12.27 19.2261 13.2145 19.2261 13.796 18.6353L21.2403 11.0729L21.2356 11.0682Z" fill="url(#paint0_linear_145_484)"/>
                                                 </g>
                                                 <defs>
                                                     <linearGradient id="paint0_linear_145_484" x1="6.4406" y1="0.921573" x2="7.12695" y2="19.4465" gradientUnits="userSpaceOnUse">
@@ -644,7 +645,7 @@
                     <!--Item-->
                     <div class="keunggulan-item group transition-all duration-[500ms] relative flex flex-col overflow-hidden w-1/6 hover:w-1/3 !min-h-100 border-r border-[var(--color-bordertransparent)]">
                         <!--front-->
-                        <div class="flex flex-col justify-end grow gap-15 px-6 py-6 pt-60">
+                        <div class="flex flex-col justify-between grow gap-15 px-6 py-6 pt-60">
                             <h6 class="!text-white">05.</h6>
                             <h5 class="!text-white">Upah Minimum Kompetitif</h5>
                         </div>
@@ -660,7 +661,7 @@
                                         <span class="gradient-icon">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="23" height="20" viewBox="0 0 23 20" fill="none">
                                                 <g clip-path="url(#clip0_145_484)">
-                                                    <path class="arrow-path" d="M21.2356 11.0682C21.8172 10.4774 21.8172 9.5179 21.2356 8.92709L13.7914 1.36468C13.2098 0.77387 12.2653 0.77387 11.6837 1.36468C11.1022 1.9555 11.1022 2.91498 11.6837 3.50579L16.5923 8.48752L2.31795 8.48752C1.49443 8.48752 0.829101 9.16341 0.829101 10C0.829101 10.8366 1.49443 11.5125 2.31795 11.5125L16.5876 11.5125L11.6884 16.4942C11.1068 17.085 11.1068 18.0445 11.6884 18.6353C12.27 19.2261 13.2145 19.2261 13.796 18.6353L21.2403 11.0729L21.2356 11.0682Z" fill="url(#paint0_linear_145_484)"/>
+                                                    <path class="icon.arrow-path" d="M21.2356 11.0682C21.8172 10.4774 21.8172 9.5179 21.2356 8.92709L13.7914 1.36468C13.2098 0.77387 12.2653 0.77387 11.6837 1.36468C11.1022 1.9555 11.1022 2.91498 11.6837 3.50579L16.5923 8.48752L2.31795 8.48752C1.49443 8.48752 0.829101 9.16341 0.829101 10C0.829101 10.8366 1.49443 11.5125 2.31795 11.5125L16.5876 11.5125L11.6884 16.4942C11.1068 17.085 11.1068 18.0445 11.6884 18.6353C12.27 19.2261 13.2145 19.2261 13.796 18.6353L21.2403 11.0729L21.2356 11.0682Z" fill="url(#paint0_linear_145_484)"/>
                                                 </g>
                                                 <defs>
                                                     <linearGradient id="paint0_linear_145_484" x1="6.4406" y1="0.921573" x2="7.12695" y2="19.4465" gradientUnits="userSpaceOnUse">
@@ -682,8 +683,8 @@
                     <!--Item-->
                     <div class="keunggulan-item group transition-all duration-[500ms] relative flex flex-col overflow-hidden w-1/6 hover:w-1/3 !min-h-100">
                         <!--front-->
-                        <div class="flex flex-col justify-end grow gap-15 px-6 py-6 pt-60">
-                            <h6 class="!text-white">06.</h6>
+                        <div class="flex flex-col justify-between grow gap-15 px-6 py-6 pt-60">
+                            <h6 class="!text-white">06</h6>
                             <h5 class="!text-white">Sumber Daya Manusia</h5>
                         </div>
                         <!--back-->
@@ -698,7 +699,7 @@
                                         <span class="gradient-icon">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="23" height="20" viewBox="0 0 23 20" fill="none">
                                                 <g clip-path="url(#clip0_145_484)">
-                                                    <path class="arrow-path" d="M21.2356 11.0682C21.8172 10.4774 21.8172 9.5179 21.2356 8.92709L13.7914 1.36468C13.2098 0.77387 12.2653 0.77387 11.6837 1.36468C11.1022 1.9555 11.1022 2.91498 11.6837 3.50579L16.5923 8.48752L2.31795 8.48752C1.49443 8.48752 0.829101 9.16341 0.829101 10C0.829101 10.8366 1.49443 11.5125 2.31795 11.5125L16.5876 11.5125L11.6884 16.4942C11.1068 17.085 11.1068 18.0445 11.6884 18.6353C12.27 19.2261 13.2145 19.2261 13.796 18.6353L21.2403 11.0729L21.2356 11.0682Z" fill="url(#paint0_linear_145_484)"/>
+                                                    <path class="icon.arrow-path" d="M21.2356 11.0682C21.8172 10.4774 21.8172 9.5179 21.2356 8.92709L13.7914 1.36468C13.2098 0.77387 12.2653 0.77387 11.6837 1.36468C11.1022 1.9555 11.1022 2.91498 11.6837 3.50579L16.5923 8.48752L2.31795 8.48752C1.49443 8.48752 0.829101 9.16341 0.829101 10C0.829101 10.8366 1.49443 11.5125 2.31795 11.5125L16.5876 11.5125L11.6884 16.4942C11.1068 17.085 11.1068 18.0445 11.6884 18.6353C12.27 19.2261 13.2145 19.2261 13.796 18.6353L21.2403 11.0729L21.2356 11.0682Z" fill="url(#paint0_linear_145_484)"/>
                                                 </g>
                                                 <defs>
                                                     <linearGradient id="paint0_linear_145_484" x1="6.4406" y1="0.921573" x2="7.12695" y2="19.4465" gradientUnits="userSpaceOnUse">
@@ -746,62 +747,22 @@
                 <!--carousel-->
                 <div class="!w-[55%] relative fasilitas-home">
                     <div class="swiper swiper-1">
-                        <div class="swiper-wrapper">
-                            <!--Item-->
-                            <div class="swiper-slide !flex flex-col justify-between bg-[var(--color-transit)] overflow-hidden rounded-2xl p-6 pb-0">
-                                <div class="mb-10 flex flex-col gap-3">
-                                    <h6>01.</h6>
-                                    <h4>Masjid</h4>
-                                </div>
-                            
-                                <img class="rounded-2xl rounded-b-none h-[180px] object-cover self-end w-full" src="{{ asset('images/morning-view-malacca-straits-mosque-masjid-selat-melaka-it-is-mosque-located-man-made-malacca-island-near-malacca-town-malaysia (1).jpg') }}">
-                            </div>
-
-                            <!--Item-->
-                            <div class="swiper-slide !flex flex-col justify-between bg-[var(--color-transit)] overflow-hidden rounded-2xl p-6 pb-0">
-                                <div class="mb-10 flex flex-col gap-3">
-                                    <h6>02.</h6>
-                                    <h4>Foodcourt</h4>
-                                </div>
-                                <img class="rounded-2xl rounded-b-none h-[180px] object-cover w-full" src="{{ asset('images/chafing-dish-heaters-display-banquet-table-with-ch-2025-03-31-18-10-54-utc.jpg') }}">
-                            </div>
-
-                            <!--Item-->
-                            <div class="swiper-slide !flex flex-col justify-between bg-[var(--color-transit)] overflow-hidden rounded-2xl p-6 pb-0">
-                                <div class="mb-10 flex flex-col gap-3">
-                                    <h6>03.</h6>
-                                    <h4>Pemadam Kebakaran</h4>
-                                </div>
-                                <img class="rounded-2xl rounded-b-none h-[180px] object-cover w-full" src="{{ asset('images/firefighter-training-with-protective-wear-spraying-high-pressure-water-fire.jpg') }}">
-                            </div>
-
-                            <!--Item-->
-                            <div class="swiper-slide !flex flex-col justify-between bg-[var(--color-transit)] overflow-hidden rounded-2xl p-6 pb-0">
-                                <div class="mb-10 flex flex-col gap-3">
-                                    <h6>04.</h6>
-                                    <h4>Ambulan</h4>
-                                </div>
-                                <img class="rounded-2xl rounded-b-none h-[180px] object-cover w-full" src="{{ asset('images/ambulan.jpg') }}">
-                            </div>
+                        <div class="swiper-wrapper !flex">
+                            <x-loop.fasilitas-home/>
+                            <x-loop.fasilitas-home/>
+                            <x-loop.fasilitas-home/>
+                            <x-loop.fasilitas-home/>
                         </div>
 
                     </div>
-
-                    
-                    <!-- Custom Arrow Left -->
+                    <!-- Custom icon.arrow Left -->
                     <div class="swiper-button-prev gradient-blue rounded-[100%] !h-[30px] !w-[30px] p-1 ">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" transform="rotate(180)">
-                        <path d="M5 12H19" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                        <path d="M12 5L19 12L12 19" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                        </svg>
+                        <x-icon.arrow-left-white/>
                     </div>
 
-                    <!-- Custom Arrow Right -->
+                    <!-- Custom icon.arrow Right -->
                     <div class="swiper-button-next gradient-blue  rounded-[100%] !h-[30px] !w-[30px] p-1">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-                        <path d="M5 12H19" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                        <path d="M12 5L19 12L12 19" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                        </svg>
+                        <x-icon.arrow-right-white/>
                     </div>
                 
                 </div>
@@ -899,235 +860,10 @@
 
             <!--Content-->
             <div class="flex flex-row justify-baseline gap-5">
-
-                <!--Item-->
-                <div class="keunggulan-item group transition-all duration-[500ms] relative flex flex-col w-1/4 !min-h-70 rounded-2xl overflow-hidden">
-                    <!--front-->
-                    <div class=" grow gap-2  bg-cover" style="background-image:url('{{ asset('images/langkah-nyata-kawasan-industri-wijayakusuma.jpeg') }}');">
-                        <div class="gradient-black-half px-6 py-6 h-full flex flex-col justify-end ">
-                            <div class="h-fit flex flex-col gap-2">
-                                <div class="flex flex-row gap-5">
-                                    <div class="flex flex-row items-center gap-2">
-                                        <x-tag-icon-white/>
-                                        <p class="!text-white">Informasi</p>
-                                    </div>
-
-                                    <div class="flex flex-row items-center gap-2">
-                                        <x-calendar-icon-white/>
-                                        <p class="!text-white">16/01/2025</p>
-                                    </div>
-                                </div>
-                                <h5 class="!text-white ellipsis">
-                                    Langkah Nyata Kawasan Industri Wijayakusuma Wujudkan Kawasan Industri Modern dan Ramah Lingkungan
-                                </h5>
-                            </div>
-                        </div>
-                    </div>
-                    <!--back-->
-                    <div class="absolute group-hover:top-[0%] top-[100%] transition-all duration-[500ms] flex flex-col justify-between bg-white gap-15 px-6 pt-6 h-full w-full">
-                            <div class="flex flex-col gap-2">
-                                <div class="flex flex-row gap-5">
-                                <div class="flex flex-row items-center gap-2">
-                                    <x-tag-icon-color/>
-
-                                    <p class="!text-[var(--color-purple)]">Informasi</p>
-                                </div>
-
-                                <div class="flex flex-row items-center gap-2">
-                                    <x-calendar-icon-color/>
-                                    <p class="!text-[var(--color-purple)]">16/01/2025</p>
-                                </div>
-
-                            </div>
-                                <h5 class="ellipsis">
-                                    Langkah Nyata Kawasan Industri Wijayakusuma Wujudkan Kawasan Industri Modern dan Ramah Lingkungan
-                                </h5>
-                        </div>        
-                        <div class="flex flex-col gap-5">
-                            <div class="mt-3">
-                                <a class="w-full btn3" href="#">
-                                    <span class="gradient-text">Selengkapnya</span>
-                                    <span class="gradient-icon">
-                                    <x-arrow-right-gradient/>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                  <!--Item-->
-                <div class="keunggulan-item group transition-all duration-[500ms] relative flex flex-col w-1/4 !min-h-70 rounded-2xl overflow-hidden">
-                    <!--front-->
-                    <div class=" grow gap-2  bg-cover" style="background-image:url('{{ asset('images/library-caffe.jpg') }}');">
-                        <div class="gradient-black-half px-6 py-6 h-full flex flex-col justify-end ">
-                            <div class="h-fit flex flex-col gap-2">
-                                <div class="flex flex-row gap-5">
-                                    <div class="flex flex-row items-center gap-2">
-                                        <x-tag-icon-white/>
-                                        <p class="!text-white">Informasi</p>
-                                    </div>
-
-                                    <div class="flex flex-row items-center gap-2">
-                                        <x-calendar-icon-white/>
-                                        <p class="!text-white">16/01/2025</p>
-                                    </div>
-                                </div>
-                                <h5 class="!text-white ellipsis">
-                                    Dirut KIW Berbagi Pengalaman Penerapan GCG di Program “Library Cafe” BPKP Jateng
-                                </h5>
-                            </div>
-                        </div>
-                    </div>
-                    <!--back-->
-                    <div class="absolute group-hover:top-[0%] top-[100%] transition-all duration-[500ms] flex flex-col justify-between bg-white gap-15 px-6 pt-6 h-full w-full">
-                            <div class="flex flex-col gap-2">
-                                <div class="flex flex-row gap-5">
-                                <div class="flex flex-row items-center gap-2">
-                                    <x-tag-icon-color/>
-
-                                    <p class="!text-[var(--color-purple)]">Informasi</p>
-                                </div>
-
-                                <div class="flex flex-row items-center gap-2">
-                                    <x-calendar-icon-color/>
-                                    <p class="!text-[var(--color-purple)]">16/01/2025</p>
-                                </div>
-
-                            </div>
-                                <h5 class="ellipsis">
-                                    Dirut KIW Berbagi Pengalaman Penerapan GCG di Program “Library Cafe” BPKP Jateng
-                                </h5>
-                        </div>        
-                    
-          
-                        <div class="flex flex-col gap-5">
-                            <div class="mt-3">
-                                <a class="w-full btn3" href="#">
-                                    <span class="gradient-text">Selengkapnya</span>
-                                    <span class="gradient-icon">
-                                    <x-arrow-right-gradient/>
-                                    </span>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                  <!--Item-->
-                <div class="keunggulan-item group transition-all duration-[500ms] relative flex flex-col w-1/4 !min-h-70 rounded-2xl overflow-hidden">
-                    <!--front-->
-                    <div class=" grow gap-2  bg-cover" style="background-image:url('{{ asset('images/langkah-nyata-kawasan-industri-wijayakusuma.jpeg') }}');">
-                        <div class="gradient-black-half px-6 py-6 h-full flex flex-col justify-end ">
-                            <div class="h-fit flex flex-col gap-2">
-                                <div class="flex flex-row gap-5">
-                                    <div class="flex flex-row items-center gap-2">
-                                        <x-tag-icon-white/>
-                                        <p class="!text-white">Informasi</p>
-                                    </div>
-
-                                    <div class="flex flex-row items-center gap-2">
-                                        <x-calendar-icon-white/>
-                                        <p class="!text-white">16/01/2025</p>
-                                    </div>
-                                </div>
-                                <h5 class="!text-white ellipsis">
-                                    Bulan K3 Nasional Tahun 2025 di PT Kawasan Industri Wijayakusuma
-                                </h5>
-                            </div>
-                        </div>
-                    </div>
-                    <!--back-->
-                    <div class="absolute group-hover:top-[0%] top-[100%] transition-all duration-[500ms] flex flex-col justify-between bg-white gap-15 px-6 pt-6 h-full w-full">
-                            <div class="flex flex-col gap-2">
-                                <div class="flex flex-row gap-5">
-                                <div class="flex flex-row items-center gap-2">
-                                    <x-tag-icon-color/>
-
-                                    <p class="!text-[var(--color-purple)]">Informasi</p>
-                                </div>
-
-                                <div class="flex flex-row items-center gap-2">
-                                    <x-calendar-icon-color/>
-                                    <p class="!text-[var(--color-purple)]">16/01/2025</p>
-                                </div>
-
-                            </div>
-                                <h5 class="ellipsis">
-                                    Bulan K3 Nasional Tahun 2025 di PT Kawasan Industri Wijayakusuma
-                                </h5>
-                        </div>        
-                    
-          
-                        <div class="flex flex-col gap-5">
-                            <div class="mt-3">
-                                <a class="w-full btn3" href="#">
-                                    <span class="gradient-text">Selengkapnya</span>
-                                    <span class="gradient-icon">
-                                    <x-arrow-right-gradient/>
-                                    </span>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                  <!--Item-->
-                <div class="keunggulan-item group transition-all duration-[500ms] relative flex flex-col w-1/4 !min-h-70 rounded-2xl overflow-hidden">
-                    <!--front-->
-                    <div class=" grow gap-2  bg-cover" style="background-image:url('{{ asset('images/langkah-nyata-kawasan-industri-wijayakusuma.jpeg') }}');">
-                        <div class="gradient-black-half px-6 py-6 h-full flex flex-col justify-end ">
-                            <div class="h-fit flex flex-col gap-2">
-                                <div class="flex flex-row gap-5">
-                                    <div class="flex flex-row items-center gap-2">
-                                        <x-tag-icon-white/>
-                                        <p class="!text-white">Acara</p>
-                                    </div>
-
-                                    <div class="flex flex-row items-center gap-2">
-                                        <x-calendar-icon-white/>
-                                        <p class="!text-white">16/01/2025</p>
-                                    </div>
-                                </div>
-                                <h5 class="!text-white ellipsis">
-                                    Kaleidoskop PT Kawasan Industri Wijayakusuma 2024: Tahun Perubahan, Kolaborasi, dan Inovasi
-                                </h5>
-                            </div>
-                        </div>
-                    </div>
-                    <!--back-->
-                    <div class="absolute group-hover:top-[0%] top-[100%] transition-all duration-[500ms] flex flex-col justify-between bg-white gap-15 px-6 pt-6 h-full w-full">
-                            <div class="flex flex-col gap-2">
-                                <div class="flex flex-row gap-5">
-                                <div class="flex flex-row items-center gap-2">
-                                    <x-tag-icon-color/>
-
-                                    <p class="!text-[var(--color-purple)]">Acara</p>
-                                </div>
-
-                                <div class="flex flex-row items-center gap-2">
-                                    <x-calendar-icon-color/>
-                                    <p class="!text-[var(--color-purple)]">16/01/2025</p>
-                                </div>
-
-                            </div>
-                                <h5 class="ellipsis">
-                                    Kaleidoskop PT Kawasan Industri Wijayakusuma 2024: Tahun Perubahan, Kolaborasi, dan Inovasi
-                                </h5>
-                        </div>        
-                    
-          
-                        <div class="flex flex-col gap-5">
-                            <div class="mt-3">
-                                <a class="w-full btn3" href="#">
-                                    <span class="gradient-text">Selengkapnya</span>
-                                    <span class="gradient-icon">
-                                    <x-arrow-right-gradient/>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
+                <x-loop.artikel-berita/>
+                <x-loop.artikel-berita/>
+                <x-loop.artikel-berita/>
+                <x-loop.artikel-berita/>
             </div>
         </section>
         <!--End Artikel Berita-->
@@ -1139,109 +875,19 @@
                 <div class="flex flex-row justify-center">
                     <!--Heading-->
                     <div class="flex flex-col justify-start gap-5">
-                        <h6 class="bullet-1 text-center">layanan kami</h6>
+                        <h6 class="bullet-1 text-center">Hubungan Investor</h6>
                         <h2 class="text-center">Laporan Tahunan & Audit Perusahaan</h2>
                     </div>
                 </div>
 
                 <!--Content-->
                 <div class="grid grid-cols-3 gap-7">
-                    
-                    <!--Item-->
-                    <div class="flex flex-col justify-between gap-5 bg-white p-6 pb-0 mini-radius">
-                        <div class="flex flex-col gap-2">
-                            <x-document-icon/>
-                            <h5>Laporan Tahunan PT KIW (persero) Tahun 2014</h5>
-                        </div>
-                        <div class="mt-10">
-                                <a class="w-full btn3" href="#">
-                                    <span class="gradient-text">Lihat Dokumen</span>
-                                    <span class="gradient-icon">
-                                    <x-download-icon/>
-                                </a>
-                        </div>
-                    </div>
-
-                    <!--Item-->
-                    <div class="flex flex-col justify-between gap-5 bg-white p-6 pb-0 mini-radius">
-                        <div class="flex flex-col gap-2">
-                            <x-document-icon/>
-                            <h5>Laporan Tahunan PT KIW (persero) Tahun 2014</h5>
-                        </div>
-                        <div class="mt-10">
-                                <a class="w-full btn3" href="#">
-                                    <span class="gradient-text">Lihat Dokumen</span>
-                                    <span class="gradient-icon">
-                                    <x-download-icon/>
-                                </a>
-                        </div>
-                    </div>
-
-                    <!--Item-->
-                    <div class="flex flex-col justify-between gap-5 bg-white p-6 pb-0 mini-radius">
-                        <div class="flex flex-col gap-2">
-                            <x-document-icon/>
-                            <h5>Laporan Tahunan PT KIW (persero) Tahun 2014</h5>
-                        </div>
-                        <div class="mt-10">
-                                <a class="w-full btn3" href="#">
-                                    <span class="gradient-text">Lihat Dokumen</span>
-                                    <span class="gradient-icon">
-                                    <x-download-icon/>
-                                </a>
-                        </div>
-                    </div>
-
-                    
-                    <!--Item-->
-                    <div class="flex flex-col justify-between gap-5 bg-white p-6 pb-0 mini-radius">
-                        <div class="flex flex-col gap-2">
-                            <x-document-icon/>
-                            <h5>Laporan Tahunan PT KIW (persero) Tahun 2014</h5>
-                        </div>
-                        <div class="mt-10">
-                                <a class="w-full btn3" href="#">
-                                    <span class="gradient-text">Lihat Dokumen</span>
-                                    <span class="gradient-icon">
-                                    <x-download-icon/>
-                                </a>
-                        </div>
-                    </div>
-
-                    
-                    <!--Item-->
-                    <div class="flex flex-col justify-between gap-5 bg-white p-6 pb-0 mini-radius">
-                        <div class="flex flex-col gap-2">
-                            <x-document-icon/>
-                            <h5>Laporan Tahunan PT KIW (persero) Tahun 2014</h5>
-                        </div>
-                        <div class="mt-10">
-                                <a class="w-full btn3" href="#">
-                                    <span class="gradient-text">Lihat Dokumen</span>
-                                    <span class="gradient-icon">
-                                    <x-download-icon/>
-                                </a>
-                        </div>
-                    </div>
-
-                    
-                    <!--Item-->
-                    <div class="flex flex-col justify-between gap-5 bg-white p-6 pb-0 mini-radius">
-                        <div class="flex flex-col gap-2">
-                            <x-document-icon/>
-                            <h5>Laporan Tahunan PT KIW (persero) Tahun 2014</h5>
-                        </div>
-                        <div class="mt-10">
-                                <a class="w-full btn3" href="#">
-                                    <span class="gradient-text">Lihat Dokumen</span>
-                                    <span class="gradient-icon">
-                                    <x-download-icon/>
-                                </a>
-                        </div>
-                    </div>
-
-                    
-
+                    <x-loop.laporan-tahunan/>
+                    <x-loop.laporan-tahunan/>
+                    <x-loop.laporan-tahunan/>
+                    <x-loop.laporan-tahunan/>
+                    <x-loop.laporan-tahunan/>
+                    <x-loop.laporan-tahunan/>
                 </div>
             </div>
         </section>

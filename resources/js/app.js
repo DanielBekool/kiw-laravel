@@ -1,3 +1,4 @@
+import '../css/app.css';
 import './bootstrap';
 import './pages/bg-switcher';
 import './pages/counter';
@@ -8,3 +9,6 @@ import './pages/swiper';
 import './pages/tippy';
 import './pages/video-inline';
 import './pages/video-modal';
+import './pages/swiper-auto-height';
+import './pages/fasilitas-swiper-number';
+
