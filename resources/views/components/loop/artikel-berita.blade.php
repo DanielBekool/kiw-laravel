@@ -1,8 +1,8 @@
-  <!--Item-->
-<div class="keunggulan-item group transition-all duration-[500ms] relative flex flex-col w-1/4 !min-h-70 rounded-2xl overflow-hidden">
+<!--Item-->
+<div class="berita-item group transition-all duration-[500ms] relative flex flex-col !min-h-70 rounded-2xl overflow-hidden">
     <!--front-->
-    <div class=" grow gap-2  bg-cover" style="background-image:url('{{ asset('images/langkah-nyata-kawasan-industri-wijayakusuma.jpeg') }}');">
-        <div class="gradient-black-half px-6 py-6 h-full flex flex-col justify-end ">
+    <div class=" grow gap-2 bg-cover flex flex-col" style="background-image:url('{{ asset('images/langkah-nyata-kawasan-industri-wijayakusuma.jpeg') }}');">
+        <div class="gradient-black-half grow px-6 py-6 h-full flex flex-col justify-end ">
             <div class="h-fit flex flex-col gap-2">
                 <div class="flex flex-row gap-5">
                     <div class="flex flex-row items-center gap-2">

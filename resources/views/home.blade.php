@@ -63,7 +63,7 @@
         <x-header-kiw/>
        
         <!--Start Hero Banner-->
-        <section id="hero-banner" class="relative bg-cover bg-center overflow-hidden"  >
+        <section id="hero-banner" class="relative bg-cover bg-center overflow-hidden">
             
 
             <!-- Video Background -->
@@ -72,122 +72,109 @@
                 <img id="video-fallback" src="./img/background-home.jpg" alt="Banner Image" class="w-full h-full object-cover absolute inset-0 z-0" />
 
 
-                <iframe id="video-frame" class="w-full h-full object-cover transform scale-120"
+                <iframe id="video-frame"
+                    class="absolute inset-0 w-full h-full object-cover scale-[3] sm:scale-[1.5] lg:scale-[1.2]"
                     src="https://www.youtube.com/embed/1t_z7FMcsOw?autoplay=1&loop=1&mute=1&controls=0&playlist=1t_z7FMcsOw&modestbranding=1&showinfo=0"
                     title="YouTube video background" frameborder="0"
                     allow="autoplay; encrypted-media" allowfullscreen>
                 </iframe>
-                
-                   
-              
+
             </div>
 
 
             <!-- overlay -->
             <div class="bg-[var(--color-overlayblack)] z-10 bg-opacity-60 relative">
-                <div class="flex flex-col justify-between items-start lg:pt-13 lg:pb-7 lg:h-[100vh] sm:h-[560px] h-[420px] gradient-black">
-
+                <div class="gradient-black-hero">
+                    <div class=" flex flex-col justify-between items-start lg:pt-13 sm:pb-2 lg:pb-7 pb-6 lg:h-[100vh] sm:h-[600px] h-[654px]">
         
-                    <!-- content -->
-                    <div class="flex flex-col items-start gap-6 lg:w-[1200px] mx-auto lg:px-0 sm:px-6 px-4 mt-40 z-20">
-                        <h1 data-aos="fade-up" class="text-left text-white lg:max-w-[600px] lg:!text-[2.8rem] sm:!text-[2.2rem] !text-[1.5rem]">
-                            Kawasan Industri Strategis untuk Pertumbuhan Bisnis
-                        </h1>
-                        <p class="text-white lg:max-w-[700px] sm:max-w-[550px] text-left">
-                            Fasilitas lengkap, aksesibilitas tinggi, dan dukungan profesional bagi investor.
-                        </p>
+                        <!-- content -->
+                        <div class="flex flex-col items-start gap-5 sm:p-6 p-4 lg:w-[1200px] lg:mx-auto lg:px-0 sm:pt-8 px-4 mt-40 z-20">
+                            <h1 data-aos="fade-up" class="text-left text-white lg:max-w-[600px] sm:max-w-[500px] lg:!text-[2.8rem] sm:!text-[2.2rem] !text-[1.6rem]">
+                                Kawasan Industri Strategis untuk Pertumbuhan Bisnis
+                            </h1>
+                            <p class="text-white lg:max-w-[700px] sm:max-w-[400px] text-left">
+                                Fasilitas lengkap, aksesibilitas tinggi, dan dukungan profesional bagi investor.
+                            </p>
 
-                        <!--Button-->
-                        <a class="w-fit btn2 mt-5" data-aos="fade-down" href="#">
-                            <span class="gradient-text">Lihat Layanan</span>
-                            <span class="gradient-icon">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="23" height="20" viewBox="0 0 23 20" fill="none">
-                                    <g clip-path="url(#clip0_145_484)">
-                                        <path class="icon.arrow-path" d="M21.2356 11.0682C21.8172 10.4774 21.8172 9.5179 21.2356 8.92709L13.7914 1.36468C13.2098 0.77387 12.2653 0.77387 11.6837 1.36468C11.1022 1.9555 11.1022 2.91498 11.6837 3.50579L16.5923 8.48752L2.31795 8.48752C1.49443 8.48752 0.829101 9.16341 0.829101 10C0.829101 10.8366 1.49443 11.5125 2.31795 11.5125L16.5876 11.5125L11.6884 16.4942C11.1068 17.085 11.1068 18.0445 11.6884 18.6353C12.27 19.2261 13.2145 19.2261 13.796 18.6353L21.2403 11.0729L21.2356 11.0682Z" fill="url(#paint0_linear_145_484)"/>
-                                    </g>
-                                    <defs>
-                                        <linearGradient id="paint0_linear_145_484" x1="6.4406" y1="0.921573" x2="7.12695" y2="19.4465" gradientUnits="userSpaceOnUse">
-                                            <stop stop-color="#1F77D3"/>
-                                            <stop offset="1" stop-color="#321B71"/>
-                                        </linearGradient>
-                                        <clipPath id="clip0_145_484">
-                                            <rect width="20" height="22.5" fill="white" transform="translate(0 20) rotate(-90)"/>
-                                        </clipPath>
-                                    </defs>
-                                </svg>
-                            </span>
-                        </a>
-                        
-                    </div>
-            
-
-                    <!-- counter -->
-                    <div class="flex row justify-between lg:w-[1200px] mx-auto  gap-0 ">
-
-                        <div class="w-1/5 self-center">
-                            <h5 class="text-white">Luas Area Tersedia</h5>
+                            <!--Button-->
+                            <a class="w-fit btn2 mt-5" data-aos="fade-down" href="/layanan">
+                                <span class="gradient-text">Lihat Layanan</span>
+                                <img src="{{ asset('images/arrow-right-solid.png') }}" alt="icon">
+                                </span>
+                            </a>
+                            
                         </div>
+                
 
-                        <!-- item counter -->
-                        <div class="w-1/5 p-5 flex flex-col justify-between border-l border-r border-[var(--color-bordertransparent)]">
-                            <div class="flex flex-row justify-center items-start gap-1 mb-2">
-                                <div class="flex flex-col gap-2 w-fit">
-                                    <div class="flex flex-row gap-2">
-                                        <h3 class="counter !font-medium lg:!text-4xl sm:!text-4xl !text-4xl text-white"  data-target="36">0</h3>
-                                        <h3 class="plus !font-medium lg:!text-[1em] self-end text-white">Ha</h3>
-                                    </div>
-                                    <div>
-                                        <p class="text-white">Lahan Industri</p>
+                        <!-- counter -->
+                        <div class="flex flex-row flex-wrap justify-between lg:w-[1200px] lg:mx-auto sm:gap-0 gap-y-5 mt-5 lg:px-0 sm:px-6 px-4">
+
+                            <div class="lg:w-1/5 sm:w-1/5 w-full self-center">
+                                <h5 class="text-white">Luas Area Tersedia</h5>
+                            </div>
+
+
+                            <!-- item counter -->
+                            <div class="lg:w-1/5 sm:w-1/5 w-1/2 lg:p-5 sm:p-5 lg:mb-0 sm:mb-0 flex flex-col justify-center sm:items-center items-start lg:border-l lg:border-r sm:border-l sm:border-r border-[var(--color-bordertransparent)]">
+                                <div class="flex flex-row justify-center items-center gap-1">
+                                    <div class="flex flex-col gap-2 w-fit">
+                                        <div class="flex flex-row gap-2">
+                                            <h3 class="counter !font-medium lg:!text-4xl sm:!text-2xl !text-[1.2em] text-white"  data-target="36">0</h3>
+                                            <h3 class="plus !font-medium lg:!text-[1em] sm:!text-2xl !text-[1.2em] self-end text-white">Ha</h3>
+                                        </div>
+                                        <div>
+                                            <p class="text-white">Lahan Industri</p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
 
-                        <!-- item counter -->
-                        <div class="w-1/5 p-5 flex flex-col justify-between border-r border-[var(--color-bordertransparent)]">
-                            <div class="flex flex-row justify-center items-start gap-1 mb-2">
-                                <div class="flex flex-col gap-2 w-fit">
-                                    <div class="flex flex-row gap-2">
-                                        <h3 class="counter !font-medium lg:!text-4xl sm:!text-4xl !text-4xl text-white"  data-target="1000">0</h3>
-                                        <h3 class="plus !font-medium lg:!text-[1em] self-end !text-white">Unit</h3>
-                                    </div>
-                                    <div>
-                                        <p class="text-white">BPSP</p>
+                            <!-- item counter -->
+                            <div class="lg:w-1/5 sm:w-1/5 w-1/2 lg:p-5 sm:p-5 flex flex-col justify-center sm:items-center items-start lg:border-r sm:border-r border-[var(--color-bordertransparent)]">
+                                <div class="flex flex-row justify-center items-start gap-1 mb-2">
+                                    <div class="flex flex-col gap-2 w-fit">
+                                        <div class="flex flex-row gap-2">
+                                            <h3 class="counter !font-medium lg:!text-4xl sm:!text-2xl !text-[1.2em] text-white"  data-target="1000">0</h3>
+                                            <h3 class="plus !font-medium lg:!text-[1em] sm:!text-2xl !text-[1.2em] self-end !text-white">Unit</h3>
+                                        </div>
+                                        <div>
+                                            <p class="text-white">BPSP</p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
 
-                        <!-- item counter -->
-                        <div class="w-1/5 p-5 flex flex-col justify-between border-r border-[var(--color-bordertransparent)]">
-                            <div class="flex flex-row justify-center items-start gap-1 mb-2">
-                                <div class="flex flex-col gap-2 w-fit">
-                                    <div class="flex flex-row gap-2">
-                                        <h3 class="counter !font-medium lg:!text-4xl sm:!text-4xl !text-4xl text-white"  data-target="200">0</h3>
-                                        <h3 class="plus !font-medium lg:!text-[1em] self-end text-white">Unit</h3>
-                                    </div>
-                                    <div>
-                                        <p class="text-white">Food Court</p>
+                            <!-- item counter -->
+                            <div class="lg:w-1/5 sm:w-1/5 w-1/2 lg:p-5 sm:p-5 flex flex-col justify-center sm:items-center items-start lg:border-r sm:border-r border-[var(--color-bordertransparent)]">
+                                <div class="flex flex-row justify-center items-start gap-1 mb-2">
+                                    <div class="flex flex-col gap-2 w-fit">
+                                        <div class="flex flex-row gap-2">
+                                            <h3 class="counter !font-medium lg:!text-4xl sm:!text-2xl !text-[1.2em] text-white"  data-target="200">0</h3>
+                                            <h3 class="plus !font-medium lg:!text-[1em] sm:!text-2xl !text-[1.2em] self-end text-white">Unit</h3>
+                                        </div>
+                                        <div>
+                                            <p class="text-white">Food Court</p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
 
-                        <!-- item counter -->
-                        <div class="w-1/5 p-5 flex flex-col justify-between">
-                            <div class="flex flex-row justify-center items-start gap-1 mb-2">
-                                <div class="flex flex-col gap-2 w-fit">
-                                    <div class="flex flex-row gap-2">
-                                        <h3 class="counter !font-medium lg:!text-4xl sm:!text-4xl !text-4xl text-white"  data-target="50">0</h3>
-                                        <h3 class="plus !font-medium lg:!text-[1em] self-end text-white">Unit</h3>
-                                    </div>
-                                    <div>
-                                        <p class="text-white">Commercial Area</p>
+                            <!-- item counter -->
+                            <div class="lg:w-1/5 sm:w-1/5 w-1/2 lg:p-5 sm:p-5 pr-0 flex flex-col justify-center sm:items-center items-start">
+                                <div class="flex flex-row justify-center items-start gap-1 mb-2">
+                                    <div class="flex flex-col gap-2 w-fit">
+                                        <div class="flex flex-row gap-2">
+                                            <h3 class="counter !font-medium lg:!text-4xl sm:!text-2xl !text-[1.2em] text-white"  data-target="50">0</h3>
+                                            <h3 class="plus !font-medium lg:!text-[1em] sm:!text-2xl !text-[1.2em] self-end text-white">Unit</h3>
+                                        </div>
+                                        <div>
+                                            <p class="text-white">Commercial Area</p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
 
+                        </div>
                     </div>
                 </div>
             </div>
@@ -197,11 +184,11 @@
 
         <!-- Start About Home -->
         <section id="about-home" class="bg-[var(--color-transit)] lg:py-30 py-18">
-            <div class="flex lg:flex-col sm:flex-row overflow-hidden relative flex-col-reverse lg:gap-0 sm:gap-10 gap-10  lg:px-0 lg:max-w-[1200px] mx-auto sm:px-6 px-4">
+            <div class="flex flex-col overflow-hidden relative lg:gap-0 sm:gap-10 gap-10  lg:px-0 lg:max-w-[1200px] mx-auto sm:px-6 px-4">
                 <!--top content-->
-                <div class="flex flex-row justify-between !gap-15 items-start -mb-10">
+                <div class="flex lg:flex-row flex-col justify-between !gap-15 items-start lg:-mb-10">
                     <!--content left-->
-                    <div class="flex flex-col justify-start gap-5 !w-[55%]">
+                    <div class="flex flex-col justify-start gap-5 lg:!w-[55%]">
                         <h6 class="bullet-1">tentang kiw</h6>
                         <h2 class="text-[var(--color-heading)]">Pilar Industri Jawa Tengah</h2>
 
@@ -216,7 +203,7 @@
                             <p class="!text-[var(--color-heading)] !text-[1.3em] w-[60px]">ISO Certificate</p>
                         </div>
                         <!--button-->
-                        <a class="w-fit btn1 mt-5"data-aos="fade-down" href="#">selengkapnya
+                        <a class="w-fit btn1 mt-5"data-aos="fade-down" href="/tentang">selengkapnya
                             <span>
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
                                     <path d="M5 12H19" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
@@ -227,26 +214,26 @@
                     </div>
 
                     <!--image top right-->
-                    <div class="!w-[45%]">
-                        <img class="rounded-2xl !h-[550px]" src="{{ asset('images/construction-site-with-cranes-construction-worker.jpg') }}" alt="about">
+                    <div class="lg;!w-[45%]">
+                        <img class="rounded-2xl lg:!h-[550px] sm:!h-[450px] lg:!w-[unset] sm:!w-[100vw] object-cover" src="{{ asset('images/construction-site-with-cranes-construction-worker.jpg') }}" alt="about">
                     </div>
                 </div>
  
 
                 <!--bottom content-->
-                <div class="flex flex-row justify-start items-center gap-10">
+                <div class="flex sm:flex-row flex-col-reverse justify-start items-center gap-10">
                     <!--content left-->
-                    <div class="w-[48%]">
+                    <div class="sm:w-[48%] w-[100%]">
                         <img class="rounded-2xl h-[340px] object-cover" src="{{ asset('images/pointing-sketch.jpg') }}">
                     </div>
 
                     <!--content right-->
                     <div class="grid grid-cols-2 gap-8">
                         <!--counter-->
-                        <div class="p-8 px-11 flex flex-col justify-between items-start bg-white rounded-2xl">
+                        <div class="sm:p-8 p-4 flex flex-col justify-between items-start bg-white rounded-2xl">
                             <div class="flex flex-row justify-start gap-1 mb-2">
-                                <h3 class="counter gradient-text !font-medium lg:!text-5xl sm:!text-4xl !text-4xl" data-target="36">0</h3>
-                                <h3 class="plus gradient-text !font-medium lg:!text-5xl sm:!text-4xl !text-4xl">+</h3>
+                                <h3 class="counter gradient-text !font-medium lg:!text-4xl sm:!text-2xl" data-target="36">0</h3>
+                                <h3 class="plus gradient-text !font-medium lg:!text-4xl sm:!text-2xl">+</h3>
                             </div>
                             <div>
                                 <p class="!text-[var(--color-heading)]">Tahun Pengalaman</p>
@@ -254,10 +241,10 @@
                         </div>
 
                         <!--counter-->
-                        <div class="p-8 px-11 flex flex-col justify-between bg-white rounded-2xl">
+                        <div class="sm:p-8 p-4 flex flex-col justify-between bg-white rounded-2xl">
                             <div class="flex flex-row justify-start gap-1 mb-2">
-                                <h3 class="counter gradient-text !font-medium lg:!text-5xl sm:!text-4xl !text-4xl" data-target="100">0</h3>
-                                <h3 class="plus gradient-text !font-medium lg:!text-5xl sm:!text-4xl !text-4xl">+</h3>
+                                <h3 class="counter gradient-text !font-medium lg:!text-4xl sm:!text-2xl" data-target="100">0</h3>
+                                <h3 class="plus gradient-text !font-medium lg:!text-4xl sm:!text-2xl">+</h3>
                             </div>
                             <div>
                                 <p class="!text-[var(--color-heading)]">Tenant Bekerjasama</p>
@@ -265,10 +252,10 @@
                         </div>
 
                         <!--counter-->
-                        <div class="p-8 px-11 flex flex-col justify-between bg-white rounded-2xl">
+                        <div class="sm:p-8 p-4 flex flex-col justify-between bg-white rounded-2xl">
                             <div class="flex flex-row justify-start gap-1 mb-2">
-                                <h3 class="counter gradient-text !font-medium lg:!text-5xl sm:!text-4xl !text-4xl" data-target="5">0</h3>
-                                <h3 class="plus gradient-text !font-medium lg:!text-5xl sm:!text-4xl !text-4xl">+</h3>
+                                <h3 class="counter gradient-text !font-medium lg:!text-4xl sm:!text-2xl" data-target="5">0</h3>
+                                <h3 class="plus gradient-text !font-medium lg:!text-4xl sm:!text-2xl">+</h3>
                             </div>
                             <div>
                                 <p class="!text-[var(--color-heading)]">Penghargaan</p>
@@ -277,10 +264,10 @@
 
                         
                         <!--counter-->
-                        <div class="p-8 px-11 flex flex-col justify-between bg-white rounded-2xl">
+                        <div class="sm:p-8 p-4 flex flex-col justify-between bg-white rounded-2xl">
                             <div class="flex flex-row justify-start gap-1 mb-2">
-                                <h3 class="counter gradient-text !font-medium lg:!text-5xl sm:!text-4xl !text-4xl" data-target="4">0</h3>
-                                <h3 class="plus gradient-text !font-medium lg:!text-5xl sm:!text-4xl !text-4xl">+</h3>
+                                <h3 class="counter gradient-text !font-medium lg:!text-4xl sm:!text-2xl" data-target="4">0</h3>
+                                <h3 class="plus gradient-text !font-medium lg:!text-4xl sm:!text-2xl">+</h3>
                             </div>
                             <div>
                                 <p class="!text-[var(--color-heading)]">Sertifikasi</p>
@@ -295,43 +282,28 @@
 
         <!-- Start Layanan Home -->
         <section id="layanan-home" class="lg:py-30 py-18 bg-cover " style="background-image: url('{{ asset('images/bg-grad.jpg') }}');">
-            <div class="flex lg:flex-col sm:flex-row overflow-hidden relative flex-col-reverse lg:gap-20 sm:gap-10 gap-10  lg:px-0 lg:max-w-[1200px] mx-auto sm:px-6 px-4">
+            <div class="flex flex-col overflow-hidden relative lg:gap-20 sm:gap-10 gap-10 lg:px-0 lg:max-w-[1200px] lg:mx-auto sm:px-6 px-4">
                 <!--Content Heading-->
-                <div class="flex flex-row justify-between items-end">
+                <div class="flex sm:flex-row flex-col justify-between items-end">
                     <!--Heading-->
-                    <div class="flex flex-col justify-start gap-5 w-[60%]">
+                    <div class="flex flex-col justify-start gap-5 sm:w-[60%]">
                         <h6 class="bullet-2 text-white ">layanan kami</h6>
                         <h2 class="text-white">Solusi Komprehensif untuk Kebutuhan Industri</h2>
                     </div>
-                    <!--Button-->
-                    <div class="w-[40%] flex flex-row justify-end">
-                        <a class="w-fit btn2 mt-5" data-aos="fade-down" href="#">
+                    <!--Button Desktop Tablet-->
+                    <div class="sm:w-[40%] sm:flex hidden flex-row justify-end">
+                        <a class="w-fit btn2 mt-5" data-aos="fade-down" href="/layanan">
                             <span class="gradient-text">Lihat Layanan</span>
-                            <span class="gradient-icon">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="23" height="20" viewBox="0 0 23 20" fill="none">
-                                    <g clip-path="url(#clip0_145_484)">
-                                        <path class="icon.arrow-path" d="M21.2356 11.0682C21.8172 10.4774 21.8172 9.5179 21.2356 8.92709L13.7914 1.36468C13.2098 0.77387 12.2653 0.77387 11.6837 1.36468C11.1022 1.9555 11.1022 2.91498 11.6837 3.50579L16.5923 8.48752L2.31795 8.48752C1.49443 8.48752 0.829101 9.16341 0.829101 10C0.829101 10.8366 1.49443 11.5125 2.31795 11.5125L16.5876 11.5125L11.6884 16.4942C11.1068 17.085 11.1068 18.0445 11.6884 18.6353C12.27 19.2261 13.2145 19.2261 13.796 18.6353L21.2403 11.0729L21.2356 11.0682Z" fill="url(#paint0_linear_145_484)"/>
-                                    </g>
-                                    <defs>
-                                        <linearGradient id="paint0_linear_145_484" x1="6.4406" y1="0.921573" x2="7.12695" y2="19.4465" gradientUnits="userSpaceOnUse">
-                                            <stop stop-color="#1F77D3"/>
-                                            <stop offset="1" stop-color="#321B71"/>
-                                        </linearGradient>
-                                        <clipPath id="clip0_145_484">
-                                            <rect width="20" height="22.5" fill="white" transform="translate(0 20) rotate(-90)"/>
-                                        </clipPath>
-                                    </defs>
-                                </svg>
-                            </span>
+                            <img src="{{ asset('images/arrow-right-solid.png') }}" alt="icon">
                         </a>
                     </div>
                 </div>
 
                 <!--Content-->
-                <div class="flex flex-row gap-7">
+                <div class="flex lg:flex-row flex-col gap-7">
 
                     <!--Item-->
-                    <div class="group transition-all duration-[500ms]  relative flex flex-col bg-[var(--color-transparent)] rounded-2xl overflow-hidden w-1/3">
+                    <div class="group transition-all duration-[500ms]  relative flex flex-col bg-[var(--color-transparent)] rounded-2xl overflow-hidden lg:w-1/3">
                         
                         <!--front-->
                         <div class="flex flex-col justify-between grow gap-15 px-6 pt-6">
@@ -340,7 +312,7 @@
                                 <h3 class="text-white">Lahan Industri Siap Bangun</h3>
                             </div>
                             <div>
-                                <img class="rounded-2xl rounded-b-none h-[250px]  object-cover" src="{{ asset('images/aerial-view-warehouse-industrial-plant-logistics-center-from-view-from.jpg') }}">
+                                <img class="rounded-2xl rounded-b-none lg:h-[250px] sm:h-[300px] h-[250px] w-full object-cover" src="{{ asset('images/aerial-view-warehouse-industrial-plant-logistics-center-from-view-from.jpg') }}">
                             </div>
                             
                         </div>
@@ -378,7 +350,7 @@
                     </div>
 
                     <!--Item-->
-                    <div class="group transition-all duration-[500ms]  relative flex flex-col bg-[var(--color-transparent)] rounded-2xl overflow-hidden w-1/3">
+                    <div class="group transition-all duration-[500ms]  relative flex flex-col bg-[var(--color-transparent)] rounded-2xl overflow-hidden lg:w-1/3">
                         
                         <!--front-->
                         <div class="flex flex-col justify-between grow gap-15 px-6 pt-6">
@@ -387,7 +359,7 @@
                                 <h3 class="text-white">Bangunan Pabrik Siap Pakai (BPSP)</h3>
                             </div>
                             <div>
-                                <img class="rounded-2xl rounded-b-none h-[250px]  object-cover" src="{{ asset('images/exterior-view-modern-industrial-building.jpg') }}">
+                                <img class="rounded-2xl rounded-b-none lg:h-[250px] sm:h-[300px] h-[250px] w-full object-cover" src="{{ asset('images/exterior-view-modern-industrial-building.jpg') }}">
                             </div>
                             
                         </div>
@@ -425,7 +397,7 @@
                     </div>
 
                      <!--Item-->
-                     <div class="group transition-all duration-[500ms]  relative flex flex-col bg-[var(--color-transparent)] rounded-2xl overflow-hidden w-1/3">
+                     <div class="group transition-all duration-[500ms] relative flex flex-col bg-[var(--color-transparent)] rounded-2xl overflow-hidden lg:w-1/3">
                         
                         <!--front-->
                         <div class="flex flex-col justify-between grow gap-15 px-6 pt-6">
@@ -434,7 +406,7 @@
                                 <h3 class="text-white">Kerjasama Komersial Kawasan Industri</h3>
                             </div>
                             <div>
-                                <img class="rounded-2xl rounded-b-none h-[250px]  object-cover" src="{{ asset('images/exterior-view-modern-industrial-building.jpg') }}">
+                                <img class="rounded-2xl rounded-b-none lg:h-[250px] sm:h-[300px] h-[250px] w-full object-cover" src="{{ asset('images/exterior-view-modern-industrial-building.jpg') }}">
                             </div>
                             
                         </div>
@@ -472,6 +444,15 @@
                     </div>
 
                 </div>
+
+                <!--Button Mobile-->
+                <div class="sm:w-[40%] flex sm:hidden flex-row justify-start">
+                    <a class="w-fit btn2 mt-5" data-aos="fade-down" href="/layanan">
+                        <span class="gradient-text">Lihat Layanan</span>
+                        <img src="{{ asset('images/arrow-right-solid.png') }}" alt="icon">
+                    </a>
+                </div>
+
             </div>
         </section>
         <!-- End Layanan Home -->
@@ -479,21 +460,21 @@
         <!--Start Keunggulan-->
         <section id="keunggulan-home" class="bg-no-repeat bg-cover" style="background-image: url('{{ asset('images/back-keunggulan.jpg') }}')">
             <!--Overlay-->
-            <div class="gradient-overlay-keunggulan pt-30 flex flex-col gap-10">
+            <div class="gradient-overlay-keunggulan lg:pt-30 pt-18 flex flex-col gap-10">
 
                 <!--Title-->
-                <div class="flex flex-col gap-5">
-                    <h6 class="text-center !text-white">Keunggulan</h6>
-                    <h2 class="text-center !text-white">Alasan Memilih KIW?</h2>
+                <div class="flex flex-col gap-5 lg:px-0 sm:px-6 px-4">
+                    <h6 class="lg:text-center !text-white">Keunggulan</h6>
+                    <h2 class="lg:text-center !text-white">Alasan Memilih KIW?</h2>
                 </div>
                 
                 <!--Content-->
-                <div class="flex flex-row">
+                <div class="flex lg:flex-row flex-col lg:px-0 lg:pb-0 pb-18 sm:px-6 px-4">
 
                     <!--Item-->
-                    <div class="keunggulan-item group transition-all duration-[500ms] relative flex flex-col overflow-hidden w-1/6 hover:w-1/3 !min-h-100 border-r border-[var(--color-bordertransparent)]">
+                    <div class="keunggulan-item group transition-all duration-[500ms] relative flex flex-col overflow-hidden lg:w-1/6 lg:hover:w-1/3 w-full lg:!min-h-100 !min-[unset] lg:border-r border-b border-[var(--color-bordertransparent)]">
                         <!--front-->
-                        <div class="flex flex-col justify-between grow gap-15 px-6 py-6 pt-60">
+                        <div class="flex flex-col justify-between grow lg:gap-15 gap-5 sm:p-6 sm:pl-0 p-4 pl-0 lg:pl-6 lg:pt-60 pt-0 group-hover:pt-60 transition-[padding] duration-300 ease-in-out">
                             <h6 class="text-white">01.</h6>
                             <h5 class="text-white">Pelayanan Satu Atap</h5>
                         </div>
@@ -529,9 +510,9 @@
                     </div>
 
                     <!--Item-->
-                    <div class="keunggulan-item group transition-all duration-[500ms] relative flex flex-col overflow-hidden w-1/6 hover:w-1/3 !min-h-100 border-r border-[var(--color-bordertransparent)]">
+                    <div class="keunggulan-item group transition-all duration-[500ms] relative flex flex-col lg:pt-0 sm:pt-6 pt-4 overflow-hidden lg:w-1/6 lg:hover:w-1/3 w-full lg:!min-h-100 !min-h-30 lg:border-r border-b border-[var(--color-bordertransparent)]">
                         <!--front-->
-                        <div class="flex flex-col justify-between grow gap-15 px-6 py-6 pt-60">
+                        <div class="flex flex-col justify-between grow lg:gap-15 gap-5 sm:p-6 sm:pl-0 p-4 pl-0 lg:pl-6 lg:pt-60 pt-0 group-hover:pt-60 transition-[padding] duration-300 ease-in-out">
                             <h6 class="!text-white">02.</h6>
                             <h5 class="!text-white">Infrastruktur & Fasilitas</h5>
                         </div>
@@ -567,9 +548,9 @@
                     </div>
 
                     <!--Item-->
-                    <div class="keunggulan-item group transition-all duration-[500ms] relative flex flex-col overflow-hidden w-1/6 hover:w-1/3 !min-h-100 border-r border-[var(--color-bordertransparent)]">
+                    <div class="keunggulan-item group transition-all duration-[500ms] relative flex flex-col lg:pt-0 sm:pt-6 pt-4 overflow-hidden lg:w-1/6 lg:hover:w-1/3 w-full lg:!min-h-100 !min-h-30 lg:border-r border-b border-[var(--color-bordertransparent)]">
                         <!--front-->
-                        <div class="flex flex-col justify-between grow gap-15 px-6 py-6 pt-60">
+                        <div class="flex flex-col justify-between grow lg:gap-15 gap-5 sm:p-6 sm:pl-0 p-4 pl-0 lg:pl-6 lg:pt-60 pt-0 group-hover:pt-60 transition-[padding] duration-300 ease-in-out">
                             <h6 class="!text-white">03.</h6>
                             <h5 class="!text-white">Lokasi Strategis</h5>
                         </div>
@@ -605,9 +586,9 @@
                     </div>
 
                     <!--Item-->
-                    <div class="keunggulan-item group transition-all duration-[500ms] relative flex flex-col overflow-hidden w-1/6 hover:w-1/3 !min-h-100 border-r border-[var(--color-bordertransparent)]">
+                    <div class="keunggulan-item group transition-all duration-[500ms] relative flex flex-col lg:pt-0 sm:pt-6 pt-4 overflow-hidden lg:w-1/6 lg:hover:w-1/3 w-full lg:!min-h-100 !min-h-30 lg:border-r border-b border-[var(--color-bordertransparent)]">
                         <!--front-->
-                        <div class="flex flex-col justify-between grow gap-15 px-6 py-6 pt-60">
+                        <div class="flex flex-col justify-between grow lg:gap-15 gap-5 sm:p-6 sm:pl-0 p-4 pl-0 lg:pl-6 lg:pt-60 pt-0 group-hover:pt-60 transition-[padding] duration-300 ease-in-out">
                             <h6 class="!text-white">04.</h6>
                             <h5 class="!text-white">Berbasis Ekosistem</h5>
                         </div>
@@ -643,9 +624,9 @@
                     </div>
 
                     <!--Item-->
-                    <div class="keunggulan-item group transition-all duration-[500ms] relative flex flex-col overflow-hidden w-1/6 hover:w-1/3 !min-h-100 border-r border-[var(--color-bordertransparent)]">
+                    <div class="keunggulan-item group transition-all duration-[500ms] relative flex flex-col lg:pt-0 sm:pt-6 pt-4 overflow-hidden lg:w-1/6 lg:hover:w-1/3 w-full lg:!min-h-100 !min-h-30 lg:border-r border-b border-[var(--color-bordertransparent)]">
                         <!--front-->
-                        <div class="flex flex-col justify-between grow gap-15 px-6 py-6 pt-60">
+                        <div class="flex flex-col justify-between grow lg:gap-15 gap-5 sm:p-6 sm:pl-0 p-4 pl-0 lg:pl-6 lg:pt-60 pt-0 group-hover:pt-60 transition-[padding] duration-300 ease-in-out">
                             <h6 class="!text-white">05.</h6>
                             <h5 class="!text-white">Upah Minimum Kompetitif</h5>
                         </div>
@@ -681,9 +662,9 @@
                     </div>
 
                     <!--Item-->
-                    <div class="keunggulan-item group transition-all duration-[500ms] relative flex flex-col overflow-hidden w-1/6 hover:w-1/3 !min-h-100">
+                    <div class="keunggulan-item group transition-all duration-[500ms] relative flex flex-col lg:pt-0 sm:pt-6 pt-4 overflow-hidden lg:w-1/6 lg:hover:w-1/3 w-full lg:!min-h-100 !min-h-30">
                         <!--front-->
-                        <div class="flex flex-col justify-between grow gap-15 px-6 py-6 pt-60">
+                        <div class="flex flex-col justify-between grow lg:gap-15 gap-5 sm:p-6 sm:pl-0 p-4 pl-0 lg:pl-6 lg:pt-60 pt-0 group-hover:pt-60 transition-[padding] duration-300 ease-in-out">
                             <h6 class="!text-white">06</h6>
                             <h5 class="!text-white">Sumber Daya Manusia</h5>
                         </div>
@@ -724,17 +705,17 @@
         <!--End Keunggulan-->
 
         <!--Start Fasilitas Home-->
-        <section id="fasilitas-home" class="overflow-hidden">
-            <div class="flex flex-row lg:px-0 lg:max-w-[1200px] mx-auto gap-10 lg:my-30 sm:px-6 px-4">
+        <section id="fasilitas-home" class="overflow-hidden lg:my-30 my-18 lg:px-0 sm:px-6 px-4">
+            <div class="flex sm:flex-row flex-col lg:px-0 lg:max-w-[1200px] mx-auto gap-10 ">
                 <!--title-->
-                <div class="flex flex-col justify-between gap-5 !w-[40%]">
+                <div class="flex flex-col justify-between gap-5 sm:!w-[40%]">
                     <div class="flex flex-col justify-between gap-5" >
                         <h6 class="bullet-1">fasilitas lengkap</h6>
                         <h2>Lingkungan Industri yang Lengkap</h2>
                     </div>  
                     
                     <!--button-->
-                    <a class="w-fit btn1 mt-5"data-aos="fade-down" href="#">semua fasilitas
+                    <a class="w-fit btn1 mt-5"data-aos="fade-down" href="/fasilitas">semua fasilitas
                         <span>
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
                                 <path d="M5 12H19" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
@@ -745,7 +726,7 @@
                 </div>
 
                 <!--carousel-->
-                <div class="!w-[55%] relative fasilitas-home">
+                <div class="sm:!w-[55%] !w-[100%] relative fasilitas-home">
                     <div class="swiper swiper-1">
                         <div class="swiper-wrapper !flex">
                             <x-loop.fasilitas-home/>
@@ -774,16 +755,16 @@
  
 
         <!--Start Video Home-->
-        <section id="video-home" class="relative w-full aspect-[16/9] rounded-2xl overflow-hidden max-w-[1200px] mx-auto">
+        <section id="video-home" class="relative w-full aspect-[16/9] rounded-2xl overflow-hidden max-w-[1200px] mx-auto lg:my-30 my-18 lg:px-0 sm:px-6 px-4">
 
             <!-- Custom Thumbnail -->
             <div
-              class="absolute inset-0 bg-cover bg-center cursor-pointer"
+              class="absolute inset-0 bg-cover bg-center cursor-pointer rounded-2xl lg:mx-0 sm:mx-6 mx-4"
               style="background-image: url('{{ asset('images/back-video.jpg') }} ') ;"
               onclick="loadVideo(this)"
             >
               <!-- Custom Play Button -->
-              <div class="flex items-center justify-center w-full h-full bg-black/10">
+              <div class="flex items-center justify-center w-full h-full bg-black/10 rounded-2xl">
                 <svg class="max-w-30 hover:max-w-40 transition duration-1000"  xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 124.9 124.9">
                     <defs>
                       <style>
@@ -827,7 +808,7 @@
           
             <!-- Hidden iframe initially -->
             <iframe
-              class="w-full h-full hidden"
+              class="w-full h-full hidden rounded-2xl"
               data-src="https://www.youtube.com/embed/-jK-qj3ZNLI?autoplay=1&rel=0"
               title="YouTube video player"
               frameborder="0"
@@ -840,15 +821,15 @@
 
 
         <!--Start Artikel Berita-->
-        <section id="artikel-berita-home" class="max-w-[1200px] mx-auto flex flex-col my-30 gap-8">
+        <section id="artikel-berita-home" class="max-w-[1200px] mx-auto flex flex-col lg:my-30 my-18 lg:px-0 sm:px-6 px-4 gap-8">
             <!--Title-->
-            <div class="flex flex-row justify-between items-end">
+            <div class="flex sm:flex-row flex-col justify-between items-end">
                 <div class="flex flex-col gap-5">
                     <h6 class="bullet-1">Artikel & Berita</h6>
                     <h2>Dapatkan Informasi Terbaru</h2>
                 </div>
-                <!--button-->
-                <a class="w-fit btn1 mt-5"data-aos="fade-down" href="#">Berita Lainnya
+                <!--button desktop tablet-->
+                <a class="sm:!flex !hidden w-fit btn1 mt-5"data-aos="fade-down" href="/berita">Berita Lainnya
                     <span>
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
                             <path d="M5 12H19" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
@@ -859,29 +840,38 @@
             </div>
 
             <!--Content-->
-            <div class="flex flex-row justify-baseline gap-5">
+            <div class="grid lg:grid-cols-4 sm:grid-cols-2 grid-cols-1 gap-7">
                 <x-loop.artikel-berita/>
                 <x-loop.artikel-berita/>
                 <x-loop.artikel-berita/>
                 <x-loop.artikel-berita/>
             </div>
+
+            <!--button mobile-->
+            <a class="!flex sm:!hidden w-fit btn1 mt-5"data-aos="fade-down" href="/berita">Berita Lainnya
+                <span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                        <path d="M5 12H19" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M12 5L19 12L12 19" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </span>
+            </a>
         </section>
         <!--End Artikel Berita-->
 
         <!-- Start Hubungan Investor Home -->
         <section id="hubungan-investor-home" class="lg:py-30 py-18 bg-cover bg-[var(--color-transit)]">
-            <div class="flex lg:flex-col sm:flex-row overflow-hidden relative flex-col-reverse lg:gap-20 sm:gap-10 gap-10  lg:px-0 lg:max-w-[1200px] mx-auto sm:px-6 px-4">
-                <!--Content Heading-->
-                <div class="flex flex-row justify-center">
-                    <!--Heading-->
-                    <div class="flex flex-col justify-start gap-5">
-                        <h6 class="bullet-1 text-center">Hubungan Investor</h6>
-                        <h2 class="text-center">Laporan Tahunan & Audit Perusahaan</h2>
-                    </div>
+            <div class="flex flex-col overflow-hidden relative lg:gap-8 sm:gap-10 gap-10  lg:px-0 lg:max-w-[1200px] mx-auto sm:px-6 px-4">
+                    
+                <!--Heading-->
+                <div class="flex flex-col justify-start gap-5">
+                    <h6 class="bullet-1 text-center">Hubungan Investor</h6>
+                    <h2 class="text-center">Laporan Tahunan & Audit Perusahaan</h2>
                 </div>
+              
 
                 <!--Content-->
-                <div class="grid grid-cols-3 gap-7">
+                <div class="grid sm:grid-cols-3 grid-cols-1 gap-7">
                     <x-loop.laporan-tahunan/>
                     <x-loop.laporan-tahunan/>
                     <x-loop.laporan-tahunan/>
@@ -895,5 +885,5 @@
 
        <x-footer/>
 
-  </div>
+    </div>
 </x-default>

@@ -63,6 +63,7 @@ body.front-end {
     --color-transparent: rgba(255, 255, 255, 0.15);
     --color-border: #d6d6d6;
     --color-overlayblack: #151918B8;
+    --color-overlaylightblack: #1519187D;
     --color-bordertransparent: #FFFFFF3B;
     --white-transparent: #FFFFFF38;
     --color-black: #151918;
@@ -70,14 +71,20 @@ body.front-end {
 }
 
 
-.gradient-black {
+.gradient-black-hero {
   background: #151918;
   background: linear-gradient(180deg, rgba(21, 25, 24, 1) 0%, rgba(0, 0, 0, 0) 60%);
 }
 
+
 .gradient-blue {
   
   background: linear-gradient(268deg, #1F77D3 1.1%, #321B71 99.1%) !important;
+}
+
+.gradient-white-about {
+  background: #ffffff;
+background: linear-gradient(180deg, rgba(255, 255, 255, 1) 40%, rgba(0, 0, 0, 0) 75%);
 }
 
 .gradient-overlay-keunggulan {
@@ -94,6 +101,20 @@ body.front-end {
   background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 73%);
 }
 
+@media(max-width: 921px) {
+  .gradient-white-about {
+  background: #ffffff;
+background: linear-gradient(180deg, rgba(255, 255, 255, 1) 52%, rgba(0, 0, 0, 0) 75%);
+}
+}
+
+@media(max-width: 544px) {
+  .gradient-white-about {
+  background: #ffffff;
+background: linear-gradient(180deg, rgba(255, 255, 255, 1) 78%, rgba(0, 0, 0, 0) 93%);
+}
+}
+
 
 /* font */
 p {
@@ -104,6 +125,15 @@ p {
   line-height: normal;
   color: var(--color-text);
 
+}
+
+p.sub-p {
+  font-family: Manrope;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  color: var(--color-heading);
 }
 
 h1 {
@@ -177,16 +207,162 @@ h6 {
 
 
 
-@media(max-width:768px) {
-    p {
-        font-size: 15px;
-    }
+@media(max-width:921px) {
+  p {
+      font-size: 15px;
+  }
+
+  p.sub-p {
+  font-size: 16px;
+
 }
 
-@media(max-width:640px) {
+    h1 {
+    font-family: Manrope;
+    font-size: 3.2em;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 76.8px */
+    color: var(--color-heading);
+  }
+
+  h2 {
+    font-family: Manrope;
+    font-size: 2.2em;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    color: var(--color-heading);
+
+  }
+
+  h2.footer {
+    font-family: Manrope;
+    font-size: 2.2em;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    color: white;
+  }
+
+  h3 {
+    font-family: Manrope;
+    font-size: 1.5em;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    color: var(--color-heading);
+  }
+
+  h4 {
+    font-family: Manrope;
+    font-size: 1.5em;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    color: var(--color-heading);
+
+  }
+
+  h5 {
+    font-family: Manrope;
+    font-size: 1.25em;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    color: var(--color-heading);
+  }
+
+  h6 {
+    font-family: Manrope;
+    font-size: .9em;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.42px;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: var(--color-heading);
+  }
+}
+
+@media(max-width:544px) {
     p {
         font-size: 14px;
     }
+
+  p.sub-p {
+  font-size: 15px;
+
+}
+
+    h1 {
+    font-family: Manrope;
+    font-size: 2.2em;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 76.8px */
+    color: var(--color-heading);
+  }
+
+  h2 {
+    font-family: Manrope;
+    font-size: 2em;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    color: var(--color-heading);
+
+  }
+
+  h2.footer {
+    font-family: Manrope;
+    font-size: 2em;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    color: white;
+  }
+
+  h3 {
+    font-family: Manrope;
+    font-size: 1.5em;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    color: var(--color-heading);
+  }
+
+  h4 {
+    font-family: Manrope;
+    font-size: 1.5em;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    color: var(--color-heading);
+
+  }
+
+  h5 {
+    font-family: Manrope;
+    font-size: 1.25em;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    color: var(--color-heading);
+  }
+
+  h6 {
+    font-family: Manrope;
+    font-size: .9em;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.42px;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: var(--color-heading);
+  }
 }
 
 /* h6 setting */
@@ -363,6 +539,14 @@ h6 {
     border: none; 
   }
 
+  .btn2 img {
+    width: 1.2em;
+  }
+
+  .btn2:hover img {
+    filter: brightness(0) invert(1);
+  }
+
   /* Custom Button 3 */
   .btn3 {
     cursor: pointer;
@@ -427,6 +611,7 @@ h6 {
   transition: background 0.5s ease;
   border: 1px solid white;
   color: white;
+  font-size: .8em;
 }
 
 .btn5:hover {
@@ -522,6 +707,12 @@ h6 {
 #fasilitas-home .swiper-button-next {
   right: -16px !important;
   top: 160px !important;
+}
+
+@media(max-width:544px) {
+  #fasilitas-home .swiper {
+  margin-right: unset !important;
+}
 }
 
 /* swiper tenant */
