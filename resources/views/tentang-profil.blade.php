@@ -1,6 +1,5 @@
 <x-default title="Profil - Kawasan Industri Wijayakusuma">
 <x-header-kiw/>
-
 <x-hero-page image="images/hero-profil-perusahaan.jpg" h1="Tentang Perusahaan"/>
 
 <!--Start About-->
