@@ -747,4 +747,24 @@ h6 {
   border-radius: 8px;
 }
 
+/* map hotspot */
+@media(max-width:544px) {
+.map-container {
+  position: relative;
+  overflow-x: auto;  
+  -webkit-overflow-scrolling: touch; 
+  white-space: nowrap; 
+  max-width: 100vw; 
+}
 
+.map-container img {
+  display: inline-block; 
+  max-width: none; 
+  width: 800px; 
+}
+
+.map-container > * {
+  display: inline-block; 
+}
+
+}

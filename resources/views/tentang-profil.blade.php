@@ -145,7 +145,7 @@
 <!--End Perjalanan-->
 
 <!--Start Tab-->
-<section id="tab" class="my-18 px-4 lg:w-[1200px] lg:mx-auto relative">
+<section id="tab" class="my-18 lg:my-30 px-4 sm:px-6 lg:px-0 lg:w-[1200px] lg:mx-auto relative">
     <div x-data="{ tab: 'tab1' }" class="rounded-md">
         <!-- Tab Headers -->
         <div class="flex gap-1 sm:gap-2 z-1">
@@ -216,8 +216,31 @@
     </div>
 </section>
 
-
 <!--End Tab-->
+
+<!--Start Koneksi Global-->
+<section id="koneksi-global" class="lg:w-[1200px] lg:mx-auto my-18 lg:my-30">
+
+    <div class="flex flex-col gap-5 px-4 sm:px-6 lg:px-0 text-center items-center">
+        <h6 class="bullet-1">anak perusahaan</h6>
+        <h2 class="sm:w-[500px] lg:w-[600px]">Dipercaya oleh Lebih dari 100 Perusahaan Global</h2>
+    </div>
+
+   
+    <div class="map-container relative overflow-x-auto whitespace-nowrap max-w-full">
+        <img src="{{ asset('images/map-koneksi.png') }}">
+        
+        <!-- Hotspot Items -->
+        <x-loop.hotspot-item top="20%" left="30%" tooltip="Gudang Surabaya"/>
+        <x-loop.hotspot-item top="80%" left="70%" tooltip="Gudang Bogor"/>
+        <x-loop.hotspot-item top="10%" left="72%" tooltip="Gudang Jakarta"/>
+        <x-loop.hotspot-item top="11%" left="75%" tooltip="Gudang Surabaya"/>
+        <x-loop.hotspot-item top="11%" left="78%" tooltip="Gudang Tes"/>
+
+    </div>
+
+</section>
+<!--End Koneksi Global-->
 
 <x-footer/>
 
