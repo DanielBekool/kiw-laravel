@@ -69,6 +69,7 @@ body.front-end {
     --white-transparent: #FFFFFF38;
     --color-black: #151918;
     --color-purple: #321B71;
+    --color-gray: #797979;
 }
 
 
@@ -84,8 +85,13 @@ body.front-end {
 }
 
 .gradient-white-about {
-  background: #ffffff;
+background: #ffffff;
 background: linear-gradient(180deg, rgba(255, 255, 255, 1) 40%, rgba(0, 0, 0, 0) 75%);
+}
+
+.gradient-white-visi-misi {
+background: #ffffff;
+background: linear-gradient(180deg, rgba(255, 255, 255, 1) 17%, rgba(255, 255, 255, 0) 100%);
 }
 
 .gradient-overlay-keunggulan {
