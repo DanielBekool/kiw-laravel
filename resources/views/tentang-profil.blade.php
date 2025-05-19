@@ -137,7 +137,7 @@
         </div>
 
         <!--Image-->
-        <img class="rounded-2xl lg:rounded-b-none sm:w-[45%] lg:w-[35%] lg:h-[460px] sm:object-cover" src="{{ asset('images/perjalanan-image.jpg') }}" alt="perjalanan">
+        <img class="rounded-2xl lg:rounded-b-none sm:w-[45%] lg:w-[35%] sm:h-[450px] lg:h-[460px] sm:object-cover" src="{{ asset('images/perjalanan-image.jpg') }}" alt="perjalanan">
     </div>
 
 
@@ -145,7 +145,76 @@
 <!--End Perjalanan-->
 
 <!--Start Tab-->
+<section id="tab" class="my-18 px-4 lg:w-[1200px] lg:mx-auto relative">
+    <div x-data="{ tab: 'tab1' }" class="rounded-md">
+        <!-- Tab Headers -->
+        <div class="flex gap-1 sm:gap-2 z-1">
+            <x-tab.tab-headers title="Pemegang Saham" tab="tab1"/>
+            <x-tab.tab-headers title="Anak Perusahaan 1" tab="tab2"/>
+            <x-tab.tab-headers title="Anak Perusahaan 2" tab="tab3"/>
+        </div>
 
+        <!-- Tab Contents -->
+        <x-tab.tab-contents id="tab1">
+            <img src="{{ asset('images/pemegang-saham.png') }}" alt="Pemegang Saham" class="w-full">
+        </x-tab.tab-contents>
+
+        
+        <x-tab.tab-contents id="tab2">
+            <div class="flex flex-col lg:flex-row lg:justify-between gap-12">
+                <div class="flex flex-col justify-between gap-10 lg:gap-20 lg:w-1/2">
+                    <img class="w-1/4 sm:w-1/5 lg:w-1/3" src="{{ asset('images/gbc-logo.png') }}" alt="PWS">
+                    <div class="flex flex-col gap-5">
+                        <h6 class="bullet-1">anak perusahaan</h6>
+                        <h2>Grand Batang City</h2>
+                        <p>
+                            Perusahaan pengelola kawasan industri seluas 4.300 hektar di Kabupaten Batang yang didukung penuh oleh Pemerintah Indonesia.
+                        </p>
+
+                        <!--button-->
+                        <a class="w-fit btn1 lg:mt-5"data-aos="fade-down" href="https://grandbatangcity.co.id/" target="_blank" rel="noopener noreferrer">kunjungi website
+                            <span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                    <path d="M5 12H19" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M12 5L19 12L12 19" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+                <img src="{{ asset('images/anak-perusahaan-1.png') }}" alt="Anak Perusahaan 1" class="w-full lg:w-1/2 object-contain">
+            </div>
+        </x-tab.tab-contents>
+
+
+        <x-tab.tab-contents id="tab3">
+            <div class="flex flex-col lg:flex-row lg:justify-between gap-12">
+                <div class="flex flex-col justify-between gap-10 lg:gap-20 lg:w-1/2">
+                    <img class="w-1/4 sm:w-1/5 lg:w-1/3" src="{{ asset('images/pws-logo.png') }}" alt="PWS">
+                    <div class="flex flex-col gap-5">
+                        <h6 class="bullet-1">anak perusahaan</h6>
+                        <h2>PT. Putra Wijaya Kusuma Sakti</h2>
+                        <p>
+                            PT PWS bergerak pada empat bidang bisnis utama, yaitu Construction & Property, Fiber Optic Infrastructure, Facility Management Services, dan Business Support.
+                        </p>
+
+                        <!--button-->
+                        <a class="w-fit btn1 lg:mt-5"data-aos="fade-down" href="https://putrawijayakusumasakti.co.id/" target="_blank" rel="noopener noreferrer">kunjungi website
+                            <span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                    <path d="M5 12H19" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M12 5L19 12L12 19" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+                <img src="{{ asset('images/anak-perusahaan-1.png') }}" alt="Anak Perusahaan 1" class="w-full lg:w-1/2 object-contain">
+            </div>
+        </x-tab.tab-contents>
+
+    </div>
+</section>
 
 
 <!--End Tab-->

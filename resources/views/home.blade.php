@@ -184,7 +184,7 @@
 
         <!-- Start About Home -->
         <section id="about-home" class="bg-[var(--color-transit)] lg:py-30 py-18">
-            <div class="flex flex-col overflow-hidden relative lg:gap-0 sm:gap-10 gap-10  lg:px-0 lg:max-w-[1200px] mx-auto sm:px-6 px-4">
+            <div class="flex flex-col overflow-hidden relative lg:gap-0 sm:gap-10 gap-10  lg:px-0 lg:lg:max-w-[1200px] lg:mx-auto sm:px-6 px-4">
                 <!--top content-->
                 <div class="flex lg:flex-row flex-col justify-between !gap-15 items-start lg:-mb-10">
                     <!--content left-->
@@ -706,7 +706,7 @@
 
         <!--Start Fasilitas Home-->
         <section id="fasilitas-home" class="overflow-hidden lg:my-30 my-18 lg:px-0 sm:px-6 px-4">
-            <div class="flex sm:flex-row flex-col lg:px-0 lg:max-w-[1200px] mx-auto gap-10 ">
+            <div class="flex sm:flex-row flex-col lg:px-0 lg:lg:max-w-[1200px] lg:mx-auto gap-10 ">
                 <!--title-->
                 <div class="flex flex-col justify-between gap-5 sm:!w-[40%]">
                     <div class="flex flex-col justify-between gap-5" >
@@ -755,7 +755,7 @@
  
 
         <!--Start Video Home-->
-        <section id="video-home" class="relative w-full aspect-[16/9] rounded-2xl overflow-hidden max-w-[1200px] mx-auto lg:my-30 my-18 lg:px-0 sm:px-6 px-4">
+        <section id="video-home" class="relative w-full aspect-[16/9] rounded-2xl overflow-hidden lg:max-w-[1200px] lg:mx-auto lg:my-30 my-18 lg:px-0 sm:px-6 px-4">
 
             <!-- Custom Thumbnail -->
             <div
@@ -821,7 +821,7 @@
 
 
         <!--Start Artikel Berita-->
-        <section id="artikel-berita-home" class="max-w-[1200px] mx-auto flex flex-col lg:my-30 my-18 lg:px-0 sm:px-6 px-4 gap-8">
+        <section id="artikel-berita-home" class="lg:max-w-[1200px] lg:mx-auto flex flex-col lg:my-30 my-18 lg:px-0 sm:px-6 px-4 gap-8">
             <!--Title-->
             <div class="flex sm:flex-row flex-col justify-between items-end">
                 <div class="flex flex-col gap-5">
@@ -861,7 +861,7 @@
 
         <!-- Start Hubungan Investor Home -->
         <section id="hubungan-investor-home" class="lg:py-30 py-18 bg-cover bg-[var(--color-transit)]">
-            <div class="flex flex-col overflow-hidden relative lg:gap-8 sm:gap-10 gap-10  lg:px-0 lg:max-w-[1200px] mx-auto sm:px-6 px-4">
+            <div class="flex flex-col overflow-hidden relative lg:gap-8 sm:gap-10 gap-10  lg:px-0 lg:lg:max-w-[1200px] lg:mx-auto sm:px-6 px-4">
                     
                 <!--Heading-->
                 <div class="flex flex-col justify-start gap-5">
