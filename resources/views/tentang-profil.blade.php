@@ -189,7 +189,7 @@
                         </a>
                     </div>
                 </div>
-                <img src="{{ asset('images/anak-perusahaan-1.png') }}" alt="Anak Perusahaan 1" class="w-full lg:w-1/2 object-contain">
+                <img src="{{ asset('images/anak-perusahaan-2.png') }}" alt="Anak Perusahaan 1" class="w-full lg:w-1/2 object-contain">
             </div>
         </x-tab.tab-contents>
 
