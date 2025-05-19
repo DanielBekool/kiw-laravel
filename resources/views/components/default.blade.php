@@ -42,6 +42,7 @@
     <title>{{ $title ?? 'Kawasan Industri Wijayakusuma' }}</title>
 
 
+
   </head>
  
   <body class="front-end">

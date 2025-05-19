@@ -223,5 +223,4 @@
 <!--End Koneksi Global-->
 
 <x-footer/>
-
 </x-default>

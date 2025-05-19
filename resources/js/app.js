@@ -11,4 +11,6 @@ import './pages/video-inline';
 import './pages/video-modal';
 import './pages/swiper-auto-height';
 import './pages/fasilitas-swiper-number';
+import './pages/popup-manajemen';
+import './pages/popup-manajemen2';
 

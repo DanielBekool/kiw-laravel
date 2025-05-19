@@ -131,7 +131,7 @@
                                     <a href="/visi-misi-tata-nilai" class="block px-4 py-2 text-[var(--color-heading)] hover:bg-[var(--color-lightblue)] hover:text-white">Visi Misi & Tata Nilai</a>
                                 </li>
                                 <li>
-                                    <a href="#" class="block px-4 py-2 text-[var(--color-heading)] hover:bg-[var(--color-lightblue)] hover:text-white">Manajemen Perusahaan</a>
+                                    <a href="/manajemen-perusahaan" class="block px-4 py-2 text-[var(--color-heading)] hover:bg-[var(--color-lightblue)] hover:text-white">Manajemen Perusahaan</a>
                                 </li>
                                 <li>
                                     <a href="#" class="block px-4 py-2 text-[var(--color-heading)] hover:bg-[var(--color-lightblue)] hover:text-white">Pedoman & Tata Kelola</a>

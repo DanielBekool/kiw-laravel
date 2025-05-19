@@ -58,7 +58,7 @@
 <!--End About Visi Misi-->
 
 <!--Start Tata Nilai-->
-<section id="tata-nilai" class="lg:w-[1200px] lg:mx-auto flex flex-col lg:flex-row gap-9 lg:gap-0 mb-18 px-4 sm:px-6 lg:px-0">
+<section id="tata-nilai" class="lg:w-[1200px] lg:mx-auto flex flex-col lg:flex-row gap-9 lg:gap-0 mb-18 lg:mb-30 px-4 sm:px-6 lg:px-0">
     
     <!--item-->
     <div class="group flex flex-col lg:w-1/6 lg:gap-2">
@@ -148,5 +148,4 @@
 
 
 <x-footer/>
-
 </x-default>

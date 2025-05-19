@@ -16,4 +16,8 @@ Route::get('/visi-misi-tata-nilai', function () {
     return view('tentang-visi-misi');
 });
 
+Route::get('/manajemen-perusahaan', function () {
+    return view('tentang-manajemen');
+});
+
 
