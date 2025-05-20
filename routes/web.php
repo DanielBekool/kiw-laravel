@@ -20,4 +20,8 @@ Route::get('/manajemen-perusahaan', function () {
     return view('tentang-manajemen');
 });
 
+Route::get('/pedoman-tata-kelola', function () {
+    return view('tentang-pedoman');
+});
+
 
